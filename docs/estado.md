@@ -1,117 +1,34 @@
 # 2. ESTADO DA ARTE
-<!--O estado da arte é um mapeamento de toda a produção acadêmica sobre um assunto específico, aqui especificamente sobre o tema escolhido para o seu trabalho. A ideia consiste em reunir as conclusões que outras pesquisas científicas chegaram sobre um determinado assunto. Neste momento você deverá buscar respostas para as seguintes perguntas:
 
-1.	Quais pesquisas estão sendo desenvolvidas sobre esse tema?
-2.	Quem está pesquisando e onde?
-3.	O que as atuais pesquisas científicas concluíram sobre o tema? 
-4.	Quais as divergências dos pesquisadores sobre o assunto? 
-5.	Quais aspectos carecem de maior abordagem?
+A transformação do modelo de trabalho desde a revolução industrial é caracterizada pela diminuição da formalidade das relações de trabalho, o que já tem sido objeto de estudo da literatura (Carneiro, 2023). Nos últimos anos, foi dada a ênfase ao papel das plataformas digitais perante a relação de trabalho na prestação de serviços, tendo as novas formas de intermediação entre clientes e trabalhadores autônomos alto impacto econômico e social (Carneiro, 2023; Fonseca, 2021; Abilio, 2019). Essa camada de trabalho digital é chamada de gig work economy, podendo ser traduzida como "economia dos bicos", sendo em resumo a digitalização do acesso ao trabalho por trabalhadores autônomos e aos trabalhadores por clientes e/ou grandes empresas (Fonseca, 2021; Carneiro, 2023). 
 
-É importante referenciar estas pesquisas, fazendo as devidas citações de acordo com as normas da ABNT e colocando as referências completas ao final do trabalho.-->
+Segundo Dedema (2023), a plataforma Uber, lançada em 2010, é considerada pioneira sobre a digitalização massificada do trabalho autônomo, ou seja, o início da gig economy. Dedema realizou um levantamento bibliográfico com 515 artigos publicados ao longo de 12 anos em que a academia internacional estudou esse fenômeno. Sua conclusão é que a pesquisa internacional na área tem 3 focos: (1) o ambiente de trabalho digital, incluindo a infraestrutura das informações e a natrureza do trabalho digital dos bicos; (2) a gestão dos algoritimos, o que inclui governança de informação, desempenho e assimetria de poder nesses algoritimos ou manipulação dos sistemas de big data; (3) o design ético, como um conunto de valores que os trabalhadores tem e esperam que as plataformas digitais responsáveis pela intermediação do trabalho também tenham. Uma de suas conclusões é que os trabalhadores dessa modalidade tem a expectativa de que as plataformas tenham como valores: (1) confiança, (2) justiça, (3) igualdade, (4) privacidade e (5) transparência, o que não se confirma na realidade das pesquisas.
 
-As plataformas digitais de prestação de serviços têm transformado significativamente as dinâmicas de intermediação entre clientes e profissionais autônomos. Modelos como o da plataforma GetNinjas exemplificam a adoção de sistemas técnicos baseados em algoritmos, fluxos de informação otimizados e mecanismos digitais de monetização, como leads pagos e moedas virtuais. Essas plataformas funcionam como marketplaces, oferecendo uma arquitetura híbrida que integra aplicações web e mobile, sistemas de ranqueamento, geolocalização e controle de reputação.
-Nos últimos anos, o crescimento desse tipo de serviço motivou uma série de pesquisas acadêmicas com diferentes enfoques — desde aspectos sociais e jurídicos até abordagens técnicas voltadas à engenharia de sistemas, usabilidade e lógica algorítmica. Este trabalho tem como objetivo apresentar o estado da arte dessas pesquisas sob uma perspectiva técnica, analisando as soluções desenvolvidas, os modelos de negócio adotados, as divergências teóricas e as lacunas ainda existentes no campo.
+Corroborando com isso, o trabalho de Grohman (2020) estuda especificamente a plataforma digital GetNinjas, realizando uma pesquisa com 24 trabalhadores brasileiros em 2019 sobre suas impressões acerca dos empregos mediados na plataforma. O trabalho indica que o público-alvo da plataforma tem faixa etária majoritaria entre 25 e 41 anos, além de ser formada por ensino fundamental incompleto (45.5%) ou ensino superior incompleto (27.3%). 95% deles já foram empregados formais, utilizando a plataforma para trazer clientes ou meio de divulgar seus serviços. O trabalho indicou como principais dores desses trabalhadores: (1) concorrência entre prestadores, (2) avaliação unilateral dos serviços prestados e (3) cobrança de taxa para acesso às oportunidades de trabalho.
 
-### 1. Pesquisas Técnicas Desenvolvidas sobre Plataformas de Serviços Digitais
-As pesquisas técnicas abordam principalmente:
-#### a) Arquitetura da informação em plataformas de intermediação digital
-A tese de Eduardo Diniz Amaral (UFSC) investiga os fluxos de informação entre usuários (clientes e prestadores), propondo um framework para modelagem de plataformas de serviço, baseado em engenharia de requisitos e modelagem ontológica.
-Ele explora métodos como BPMN e modelos taxonômicos reutilizáveis aplicados a sistemas de matching e gerenciamento de reputação.
-#### b) Modelos de funcionamento e monetização técnica (moedas e leads)
-A pesquisa da UFBA analisa o sistema técnico de cobrança por leads, no qual profissionais precisam adquirir “moedas virtuais” para destravar contatos — um modelo técnico de pay-per-lead embutido no backend da plataforma.
-O sistema opera por lógica de leilão reverso algorítmico: o cliente publica uma demanda e os profissionais disputam para oferecer propostas, sem garantia de retorno.
-#### c) Controle algorítmico e mediação via IA simples
-Diversos artigos descrevem a lógica de matching baseada em:
-Localização (geolocalização/GPS);
-Avaliações anteriores;
-Categorias de serviço.
-A lógica é implementada via regras de negócio simples, mas cada vez mais influenciada por mecanismos de ranqueamento e reputação algorítmica.
-#### d) Modelos de negócios freemium com backend modularizado
-Estudos sobre o modelo de negócios do GetNinjas apontam o uso de sistemas modulares, em que:
-O front-end funciona como uma vitrine adaptada (Progressive Web App ou aplicativo nativo);
-O back-end opera com microserviços para:
-- pagamento;
-- ranqueamento;
-- avaliação;
-- leads;
-- notificações;
-- suporte.
+O estudo de Amaral (2025) estuda a arquitetura de informação e aponta um crescimento das plataformas digitais do gênero marketplace. Indica também que, desde 2016, é especialmente notável o crescimento da "uberização" - termo utilizado para se referir aos aplicativos que realizam o intermédio entre prestação de seviços e aquirência desses serviços. Amaral aponta o problema acerca de como essa linha de plataformas conecta prestadores de serviço aos demandates do serviço, citando entre as plataformas alvo dos estudos a GetNinjas. É documentada a didifuldade de encontrar pequenos trabalhadores, ainda que estejam disponíveis e sejam atuantes localmente, dada a falta de controle que o demandante tem sobre os critérios de escolha. A partir desse problema, Amaral propõe um frameowork de modelagem de plataformas desse serviço, baeado em engenharia de requisitos e modelagem ontológica. Ele explora métodos como BPMN e modelos taxonômicos reutilizáveis aplicados a sistemas de matching e gerenciamento de reputação.
 
-As plataformas utilizam APIs para integração com serviços de terceiros (gateways de pagamento, mapas, notificações, etc.).
+Lopes (2021) estuda o modelo de monetização nesse segmento econômico, especificamente no caso da GetNinjas, detalhando como parte do problema desse sistema a cobrança por leads. No modelo descrito, os profissionais só tem acesso aos contatos por meio de uma troca de "moedas virtuais", chamado de modelo técnico pay-per-lead, embutido na plataforma. Essa lógica de leilão reverso do algoritimo é feita em cima de um fluxo onde um cliente publica uma demanda e os profissionais se veem disputando ao oferecer propostas, sem garantia de retorno.
 
-### 2. Principais Pesquisadores e Instituições Envolvidas
+Um tema frequente na literatura é a lógica de matching de prestadores e clientes baseada em: (1) localização geofráfica, (2) avaliações de serviços anteriores e (3) categoria do serviço (Pereira, 2023; Martins, 2021). Apesar das regras de negócio serem simples, é cada vez mais influenciada por mecanismos de ranqueamento e mediada por inteliência artificial dada uma reputação algoritimica, sendo demasiada simples e focada na reputação somente do prestador e não pegando os nuances como o cliente (Pereira, 2023; Martins, 2021; Silva, 2023; Barreto, 2021), o que vai de encontro com o relatado de problemas encontrados entre os trabalhadores dessas platafornas (Grohman, 2020).
 
-|Pesquisador    | Instituição  | Enfoque técnico|
-|------|-----------------------------------------|----|
-| Eduardo Diniz Amaral | UFSC (PPGCI) | Modelagem de sistemas de informação, arquitetura da informação, ontologias. |
-| Randerson Lopes | UFBA | Análise crítica de sistemas de cobrança por moeda virtual e leilão reverso. |
-| Helena Martins & Jonas Valente | UFC / University of Oxford | Controle algorítmico, vigilância digital do trabalho, subsunção tecnológica. |
-| Autores diversos (ResearchGate) | Diversas Universidades | Modelos de reputação, engenharia de plataforma, monetização escalável. |
+Acerca da descrição das implementações técnicas desse tipo de negócio, o estudo de Amaral (2025) também evidencia as características básicas que seriam essenciais para operação desse modelo de negócio: (1) vitrine adaptada no frontend baseada em  web progressive app ou aplicativos nativos por sistema operacional, dada a compatibilidade web e mobile (2) API com módulos de: (2.1) pagamento, (2.2) ranqueamento, (2.3) avaliações, (2.4) leads, (2.5) notificações e (2.6) suporte ao cliente. Amaral descreve ainda a possível integração desses módulos com serviços terceiros (gateways de pagamento, mapas, etc).
 
-### 3. Conclusões Técnicas das Pesquisas Científicas sobre o Tema
-- As plataformas operam como sistemas híbridos e escaláveis, com:
-  - Front-end (web/mobile) para geração de demanda;
-  - Back-end com microserviços, para processamento de transações, leads, reputação e notificações.
-    
-- O sistema de monetização por moedas/leads é sistematicamente desenhado para gerar receita constante, mesmo sem garantia de retorno ao prestador. Isso levanta críticas técnicas e éticas.
-  
-- O sistema de matching funciona com base em critérios técnicos fixos:
-  - Geolocalização (via API de mapa);
-  - Categoria do serviço;
-  - Reputação (nota e volume de atendimentos);
-  - Moedas disponíveis.
-  
-  Resultado: o acesso às oportunidades é condicionado por barreiras técnicas (paywall digital).
+Abaixo, temos uma tabela sintetizando as visões encontradas e enfatizando algumas contradições entre elas:
 
-- A arquitetura dos fluxos de dados é centralizada e opaca:
-  - O prestador só visualiza o cliente após o pagamento;
-  - O cliente vê apenas candidatos selecionados pelo algoritmo;
-  - O algoritmo não é transparente.
-
-
-
-### 4. Divergências Técnicas entre Pesquisadores
-
-|Tema | Visão (A) | Visão (B) |
+| Tema | Ponto positivo | Ponto negativo |
 |------|-----------------------------------------|----|
 | Sistema de moedas | Estratégia legítima e escalável de monetização | Modelo tecnicamente injusto, que transfere risco ao prestador |
 | Matching algorítmico | Automatiza o processo com critérios objetivos | Gera desigualdade e bolhas de reputação, sem transparência algorítmica |
 | Leilão reverso digital | Reduz custos para o cliente e aumenta a concorrência | Gera “corrida para o fundo” e afeta a sustentabilidade técnica do profissional |
-| Arquitetura de sistema | Modular e replicável para múltiplos nichos | Centralizada e opaca, favorecendo apenas a plataforma |
+| Arquitetura de sistema | Modular e replicável para múltiplos nichos | Centralizada por marca e opaca, favorecendo apenas a plataforma |
 
+A literatura traz que os sistema de monetização por moedas/leads é sistematicamente desenhado para gerar receita constante, mesmo sem garantia de retorno ao prestador (Lopes, 2021), o que levanta críticas morais já percebidas entre os trabalhadores (Dedema, 2023; Grohman, 202). A descrição do sistema de matching inclui tanto geolozalização quanto categoria de serviço, reputação e moedas digitais (Pereira, 2023; Martins, 2021). Caracteriza a operação técnica dada com sistemas híbridos (tanto aplicativo mobile quanto browser web) e backend modularizado (Amaral, 2025). As principais críticas à arquitetura de fluxos inclui a limitação acerca da conectividade entre cliente e prestador limitada pelo pagamento e sistema pay por lead, a limitação de candidatos selecionados pelo algoritimo e a falta de transparência dos critérios.
 
+Concluimos portanto que as dores nas pesquisas hoje são: 
 
+(1) Falta documentação técnica clara sobre ranqueamento e critérios de matching para os envolvidos na relação de trabalho
+(2) Modelagem de reputação e viés técnico, sendo a reputação do profissional critério superficial e subjetivo
+(3) Escassez de estudos e soluções sobre a usabilidade dessas plataformas para profissionais, assim como efetividade de atingir seus objetivos   
+(5) Interoperabilidade e APIs públicas, a maioria das plataformas opera em sistemas fechados, havendo pouca possibilidade de integração com ERPs e CRMs
 
-
-### 5. Lacunas Técnicas e Demandas por Novas Abordagens
-   
-#### a) Transparência algorítmica
-- Falta documentação técnica clara sobre:
-  - Ranqueamento;
-  - Critérios de matching;
-  - Distribuição de leads.
-- Recomendação: auditorias algorítmicas e logs de decisão.
-  
-#### b) Modelagem de reputação e viés técnico
-- Há escassez de análises sobre:
-  - Impacto técnico das avaliações;
-  - Efeitos de viés sobre novos profissionais;
-  - Exclusão digital algorítmica.
-    
-#### c) Desenho centrado no usuário (UX técnico)
-- Escassez de estudos sobre:
-  - Usabilidade de apps para profissionais;
-  - Acessibilidade;
-  - Jornada de navegação.
-    
-#### d) Segurança e integridade de dados
-- Faltam estudos técnicos sobre:
-  - Proteção de dados pessoais;
-  - Histórico de pagamentos e avaliações;
-  - Geolocalização e privacidade.
-    
-#### e) Interoperabilidade e APIs públicas
-- A maioria das plataformas opera em sistemas fechados;
-- Pouca discussão sobre:
-  - Integração com ERPs e CRMs;
-  - Disponibilidade de APIs públicas/documentadas para terceiros.
