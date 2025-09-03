@@ -6,7 +6,7 @@ As plataformas digitais são consideradas catalizadoras desse processo de reorga
 
 No Brasil, uma das maiores plataformas de conexão entre autônomos de todos os tipos e seus contratantes é a GetNinjas, que tem como proposta atuar de maneira genérica em nível global e local, que já foi descrita na literatura por ter problemas em sua proposta de relação entre trabalhadores e clientes, sendo os problemas: (1) concorrência entre prestadores, (2) avaliação unilateral dos serviços pretados e (3) cobrança de taxa para acesso às oportunidades de trabalho (Grohman, 2020; Carelli, 2020)
 
-Considerando a emergente digitalização do trabalho autônomo e a crescente economia do digitrab, esse projeto tem como proposta uma plataforma alternativa ao GetNinjas, resolvendo por meio da Experiência de Usuário (UX) e interface da plataforma (UI) as dores presentes pelos prestadores de serviço brasileiros que buscam ter acesso à oportunidades de trabalho. A proposta envolve o desenvolvimento de uma plataforma que conecte os prestadores de serviço com empresas e/ou clientes para diversos serviços. A "UaiWork" vem como solução e alternativa para esse problema.
+Outras plataformas como Fiverr e Sitly apresentam os mesmos problemas em diferentes níveis, nos levando a considerar que são comuns as atuais plataformas de prestação de serviços autônomos. Dessa forma, percebemos a necessidade de atualizações e novas maneiras de intermediar esse processo visando corrigir as principais queixas dos usuários.
 
 ## 1.1. Problema
 
