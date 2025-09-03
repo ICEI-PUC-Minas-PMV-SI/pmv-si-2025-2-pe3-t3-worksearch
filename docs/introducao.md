@@ -10,7 +10,7 @@ Outras plataformas como Fiverr e Sitly apresentam os mesmos problemas em diferen
 
 ## 1.1. Problema
 
-Atualmente, os trabalhadores autônomos ou prestadores de serviço não têm uma plataforma digital com metodologia de acesso à oportunidades de emprego de maneira transparente. As dores retratadas na literatura incluem desde uma experiência que prioriza concorrência, falta de feedback sobre o cliente do serviço prestado e mesmo cobrança de taxas.
+Atualmente, os trabalhadores autônomos ou prestadores de serviço não possuem uma plataforma digital com metodologia de acesso à oportunidades de empregos de maneira justa. As dores retratadas na literatura incluem desde uma experiência que prioriza concorrência, falta de feedback sobre o cliente do serviço prestado e mesmo cobrança de taxas que dificultam uma renda real.
 
 ## 1.2. Objetivos do trabalho
 
