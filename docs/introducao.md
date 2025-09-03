@@ -14,8 +14,6 @@ Atualmente, os trabalhadores autônomos ou prestadores de serviço não têm uma
 
 ## 1.2. Objetivos do trabalho
 
-Desenvolver uma plataforma digital chamada "UaiWork", com transparência sobre cada serviço prestado na relação entre trabalhador e cliente, de maneira a representar de forma mais igualitária e realista como essas relações são dadas na vida real. Assim como prover uma comunidade onde os trabalhadores se impulsionem ao invés de concorrerem, sem custos adicionais.
-
 ### Objetivo Geral:
 
 O objetivo geral do projeto é desenvolver uma aplicação web que facilite a conexão e a comunicação entre prestadores de serviços autônomos e seus respectivos clientes. A aplicação visa auxiliar, de forma simples e direta, que ambos os usuários (cliente e prestador de serviço) se encontrem na plataforma de acordo com a oferta e demanda de serviços, além de focar no feedback de cada serviço prestado por ambas as partes e possibilitar que prestadores de serviço recomendem um ao outro.
