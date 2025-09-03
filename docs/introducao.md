@@ -16,7 +16,7 @@ Atualmente, os trabalhadores autônomos ou prestadores de serviço não possuem 
 
 ### Objetivo Geral:
 
-O objetivo geral do projeto é desenvolver uma aplicação web que facilite a conexão e a comunicação entre prestadores de serviços autônomos e seus respectivos clientes. A aplicação visa auxiliar, de forma simples e direta, que ambos os usuários (cliente e prestador de serviço) se encontrem na plataforma de acordo com a oferta e demanda de serviços, além de focar no feedback de cada serviço prestado por ambas as partes e possibilitar que prestadores de serviço recomendem um ao outro.
+O objetivo geral do projeto é desenvolver uma aplicação web que facilite a conexão e a comunicação entre prestadores de serviços autônomos e seus respectivos clientes. A aplicação visa auxiliar, de forma simples e direta, que ambos os usuários (cliente e prestador de serviço) se encontrem na plataforma de acordo com a oferta e demanda de serviços, proporcionar um ambiente justo e transparente para ambos os usuários, além de incentivar feedbacks construtivos sobre o sistema para uma constante evolução da plataforma.
 
 ### Objetivos Específicos:
 
