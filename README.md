@@ -10,12 +10,12 @@ O projeto UaiWork é uma plataforma digital que busca conectar trabalhadores aut
 
 ## Integrantes
 
-* Gustavo da Silva Novaes
-* Mariana Silva de Mello Mattos
-* Thais Angélica Costa Lara
-* Carlos Aguinaldo Alves Marques da Silveira
-* Felipe Franco Soares
-* Theo Xavier Lopes
+* Carlos Aguinaldo Alves Marques da Silveira  
+* Felipe Franco Soares  
+* Gustavo da Silva Novaes  
+* Mariana Silva de Mello Mattos  
+* Thais Angélica Costa Lara  
+* Theo Xavier Lopes 
 
 ## Orientador
 
