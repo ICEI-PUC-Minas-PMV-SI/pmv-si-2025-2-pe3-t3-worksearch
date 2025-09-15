@@ -31,11 +31,13 @@ O SCCA não fornece nenhuma forma de avaliação de alunos, pagamento de parcela
 
 | Código | Requisito Funcional (Funcionalidade) | Descrição |
 |--------------------|------------------------------------|----------------------------------------|
-| RF1 | Cadastro de Usuário |------ |
-| RF2 |	Recuperação de Senha	| ------- |
-| RF3	| Criação de Perfil de Usuário (Prestador de Serviço)  |	---------- |
-| RF4 |	Criação de Perfil de Usuário (Cliente)| ... |
-| RF5 | Filtros de Pesquisa | --------- |
+| RF1 | Cadastro de Usuário | O sistema deverá permitir que tanto prestadores de serviços quanto clientes se cadastrem na plataforma fornecendo informações essenciais, como nome, e-mail, telefone e tipo de usuário (prestador ou cliente). |
+| RF2 |	Recuperação de Senha	|  O sistema deverá permitir que tanto prestadores de serviços quanto clientes se cadastrem na plataforma fornecendo informações essenciais, como nome, e-mail, telefone e tipo de usuário (prestador ou cliente). |
+| RF3	| ---------  |	---------- |
+| RF4 |	-----------| ... |
+| RF5 | Filtros de Pesquisa | O sistema deverá oferecer filtros para que o cliente refine sua busca, como faixa de preço, avaliação do prestador, e disponibilidade. |
+| RF6 | Sistema de Avaliação de Serviço | Após a conclusão do serviço, tanto o cliente quanto o prestador poderão avaliar a experiência.|
+| RF7 | Sistema de Feedback Construtivo | O sistema permitirá que o cliente forneça feedback construtivo diretamente ao prestador, sem prejudicar a imagem pública do prestador de serviço. |
 
 ### 3.3.2 Requisitos Não Funcionais
 
