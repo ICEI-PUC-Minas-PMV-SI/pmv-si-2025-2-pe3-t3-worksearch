@@ -1,33 +1,40 @@
 # 3. DOCUMENTO DE ESPECIFICAÇÃO DE REQUISITOS DE SOFTWARE
 
 ## 3.1 Objetivos deste documento
+
 Descrever e especificar as necessidades dos Prestadores de Serviço e Clientes que devem ser atendidas pelo sistema UaiWork.
 
 ## 3.2 Escopo do produto
 
 ### 3.2.1 Nome do produto e seus componentes principais
+
 O produto será nomeado "UaiWork", nome escolhido como trocadilho entre o termo "Uai" em português e "Why" em inglês, voltado para conectar prestadores de serviço e clientes.
 
 Ele terá:
 
 (1) Módulo de usuários, com elementos necessários para gestão de cadastrados de ambos os tipos (prestador de serviço e cliente)
-(2) Módulo de serviços prestados, com elementos necessários para gestão de progresso dos serviços, comentários e avaliações dos serviços
-(3) Módulo de pagamentos, com elementos necessários para gestão do status do pagamento dos serviços prestados
+(2) Módulo de serviços prestados, com elementos necessários para gestão de progresso dos serviços, comentários e avaliações dos serviços por todos os usuários envolvidos
+(3) Módulo de indicação de usuários, com elementos necessários para que prestadores e clientes indiquem um ao outro
 
 ### 3.2.2 Missão do produto
-Gerenciar informações sobre a oferta de cursos de aperfeiçoamento, gerenciar a composição das turmas, alunos, professores e matrículas. 
+
+Fornecer uma conexão justa e funcional entre clientes e prestadores de serviço, focando no serviço prestado como ele é na realidade. Proporcionar um ambiente colaborativo entre prestadores e clientes.
 
 ### 3.2.3 Limites do produto
-O SCCA não fornece nenhuma forma de avaliação de alunos, pagamento de parcelas do curso, pagamento a professore e agendamentos. O SCCA não contempla o atendimento a vários cursos de Sistemas de Informação de outras unidades da PUC Minas.
+
+O UaiWork não realiza gestão de pagamentos ou integração com gateways de terceiros. O UaiWork não realiza suporte ao cliente sobre o serviço do prestador.
 
 ### 3.2.4 Benefícios do produto
 
 | # | Benefício | Valor para o Cliente |
 |--------------------|------------------------------------|----------------------------------------|
-|1	| Facilidade no cadastro de dados |	Essencial |
-|2 | Facilidade na recuperação de informações | Essencial | 
-|3 | Segurança no cadastro de matrículas | Essencial | 
-|4	| Melhoria na comunicação com os alunos	| Recomendável | 
+|1	| Facilidade no cadastro de serviço prestado |	Essencial |
+|2	| Facilidade no cadastro de progresso do serviço prestado |	Essencial |
+|3 | Facilidade na consulta de prestadores disponíveis | Essencial | 
+|4 | Facilidade na consulta de prestadores indicados | Essencial | 
+|5 | Facilidade na consulta de clientes indicados | Essencial | 
+|6 | Segurança das informações sobre o serviço prestado tanto do cliente quanto do prestador | Essencial | 
+|7 | Comunicação direta entre prestadores e cliente | Recomendável | 
 
 ## 3.3 Descrição geral do produto
 
