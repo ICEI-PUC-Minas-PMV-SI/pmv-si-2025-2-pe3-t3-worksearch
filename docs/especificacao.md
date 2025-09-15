@@ -31,18 +31,19 @@ O SCCA não fornece nenhuma forma de avaliação de alunos, pagamento de parcela
 
 | Código | Requisito Funcional (Funcionalidade) | Descrição |
 |--------------------|------------------------------------|----------------------------------------|
-| RF1 | Gerenciar Curso de Aperfeiçoamento |	Processamento de Inclusão, Alteração, Exclusão e Consulta de Cursos de Aperfeiçoamento |
-| RF2 |	Gerenciar Professor	| Processamento de Inclusão, Alteração, Exclusão e Consulta de professores |
-| RF3	| Gerenciar Matrícula |	Processamento de Inclusão, Alteração, Exclusão e Consulta de Matrículas de alunos em Cursos de Aperfeiçoamento |
-| ... |	...	| ... |
+| RF1 | Cadastro de Usuário |------ |
+| RF2 |	Recuperação de Senha	| ------- |
+| RF3	| Criação de Perfil de Usuário (Prestador de Serviço)  |	---------- |
+| RF4 |	Criação de Perfil de Usuário (Cliente)| ... |
+| RF5 | Filtros de Pesquisa | --------- |
 
 ### 3.3.2 Requisitos Não Funcionais
 
 | Código | Requisito Não Funcional (Restrição) |
 |--------------------|------------------------------------|
-| RNF1 | O ambiente operacional a ser utilizado é o Windows XP. |
-| RNF2 | O sistema deverá executar em um computador configurado com uma impressora de tecnologia laser ou de jato de tinta, a ser usada para impressão dos relatórios. |
-| RNF3 |	Segurança	O produto deve restringir o acesso por meio de senhas individuais para o usuário. |
+| RNF1 | A plataforma deve apresentar uma interface de usuário simples e intuitiva. |
+| RNF2 | A navegação deve ser simplificada para tornar a busca por serviços, agendamentos e comunicação mais intuitiva, com menus claros e bem estruturados. |
+| RNF3 | A plataforma deve ser totalmente compatível com a Lei Geral de Proteção de Dados (LGPD), garantindo que todos os dados pessoais dos usuários sejam tratados de maneira transparente e segura. |
 | ... |	... |	... |
 
 ### 3.3.3 Usuários 
