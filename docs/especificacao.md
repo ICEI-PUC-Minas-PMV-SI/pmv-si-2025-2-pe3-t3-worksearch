@@ -42,22 +42,23 @@ O UaiWork não realiza gestão de pagamentos ou integração com gateways de ter
 
 | Código | Requisito Funcional (Funcionalidade) | Descrição |
 |--------------------|------------------------------------|----------------------------------------|
-| RF1 | Cadastro de Usuário | O sistema deverá permitir que tanto prestadores de serviços quanto clientes se cadastrem na plataforma fornecendo informações essenciais, como nome, e-mail, telefone e tipo de usuário (prestador ou cliente). |
+| RF1 | Gestão de Conta de Usuário | O sistema deverá permitir que tanto prestadores de serviços quanto clientes se cadastrem na plataforma fornecendo informações essenciais, como nome, e-mail, telefone e tipo de usuário (prestador ou cliente) e façam gestão de suas contas. |
 | RF2 |	Recuperação de Senha	|  O sistema deverá permitir que tanto prestadores de serviços quanto clientes se cadastrem na plataforma fornecendo informações essenciais, como nome, e-mail, telefone e tipo de usuário (prestador ou cliente). |
-| RF3	| ---------  |	---------- |
-| RF4 |	-----------| ... |
-| RF5 | Filtros de Pesquisa | O sistema deverá oferecer filtros para que o cliente refine sua busca, como faixa de preço, avaliação do prestador, e disponibilidade. |
-| RF6 | Sistema de Avaliação de Serviço | Após a conclusão do serviço, tanto o cliente quanto o prestador poderão avaliar a experiência.|
-| RF7 | Sistema de Feedback Construtivo | O sistema permitirá que o cliente forneça feedback construtivo diretamente ao prestador, sem prejudicar a imagem pública do prestador de serviço. |
+| RF3	| Gestão de serviço prestado  |	O sistema deverá permitir adicionar serviço prestado e atualizar seu progresso, tanto pelo prestador quanto pelo cliente |
+| RF4 |	Avaliação de serviço prestado | Após a conclusão do serviço, tanto o cliente quanto o prestador poderão avaliar a experiênci final |
+| RF5 | Pesquisa por prestador de serviço | O sistema deverá oferecer filtros para que o cliente refine sua busca, como faixa de preço, avaliação do prestador, e disponibilidade. |
+| RF6 | Gestão de Indicações | O sistema deve permitir que clientes e prestadores indiquem um ao outro, editem ou removam suas indicações |
 
 ### 3.3.2 Requisitos Não Funcionais
 
 | Código | Requisito Não Funcional (Restrição) |
 |--------------------|------------------------------------|
-| RNF1 | A plataforma deve apresentar uma interface de usuário simples e intuitiva. |
-| RNF2 | A navegação deve ser simplificada para tornar a busca por serviços, agendamentos e comunicação mais intuitiva, com menus claros e bem estruturados. |
-| RNF3 | A plataforma deve ser totalmente compatível com a Lei Geral de Proteção de Dados (LGPD), garantindo que todos os dados pessoais dos usuários sejam tratados de maneira transparente e segura. |
-| ... |	... |	... |
+| RNF1 | A plataforma deve ser disponibilizada para acesso web |
+| RNF2 | A plataforma deve ser responsiva, mantendo-se compatível com dispositivos mobile e dektop |
+| RNF3 | A plataforma deve apresentar uma interface de usuário simples e intuitiva. |
+| RNF4 | A navegação deve ser simplificada para tornar a busca por serviços, agendamentos e comunicação mais intuitiva, com menus claros e bem estruturados. |
+| RNF5 | A plataforma deve ser totalmente compatível com a Lei Geral de Proteção de Dados (LGPD), garantindo que todos os dados pessoais dos usuários sejam tratados de maneira transparente e segura. |
+| RNF6 |O produto deve restringir o acesso por meio de senhas individuais para o usuário. |
 
 ### 3.3.3 Usuários 
 
@@ -65,7 +66,6 @@ O UaiWork não realiza gestão de pagamentos ou integração com gateways de ter
 |--------------------|------------------------------------|
 | Prestadores de serviços |	Profissionais que oferecem seus serviços sem vínculos empregatícios formais. |
 | Clientes  |	Contratam os serviços dos prestadores autônomos. |
-| ... |	... |	... |
 
 ## 3.4 Modelagem do Sistema
 
