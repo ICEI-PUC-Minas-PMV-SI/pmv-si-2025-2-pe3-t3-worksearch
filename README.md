@@ -19,7 +19,7 @@ O projeto UaiWork é uma plataforma digital que busca conectar trabalhadores aut
 
 ## Orientador
 
-* Maria Ines Lage de Paula 
+* Maria Inês Lage de Paula 
 
 # Planejamento
 
