@@ -66,12 +66,13 @@ O UaiWork não realiza gestão de pagamentos ou integração com gateways de ter
 
 | Código | Requisito Não Funcional (Restrição) |
 |--------------------|------------------------------------|
-| RNF1 | A plataforma deve ser disponibilizada para acesso web |
-| RNF2 | A plataforma deve ser responsiva, mantendo-se compatível com dispositivos mobile e dektop |
-| RNF3 | A plataforma deve apresentar uma interface de usuário simples e intuitiva. |
-| RNF4 | A navegação deve ser simplificada para tornar a busca por serviços, agendamentos e comunicação mais intuitiva, com menus claros e bem estruturados. |
-| RNF5 | A plataforma deve ser totalmente compatível com a Lei Geral de Proteção de Dados (LGPD), garantindo que todos os dados pessoais dos usuários sejam tratados de maneira transparente e segura. |
-| RNF6 |O produto deve restringir o acesso por meio de senhas individuais para o usuário. |
+| RNF1 | A plataforma deverá ser acessível em diferentes dispositivos, como desktops, smartphones e tablets, garantindo uma boa experiência de uso em qualquer tipo de tela.  |
+| RNF2 |--------- |
+| RNF3 |---------|
+| RNF4 | A plataforma deve ser capaz de processar requisições (como busca de prestadores de serviço ou envio de solicitações) em até 3 segundos, em média.
+| RNF5 | O sistema deverá ser escalável para suportar picos de acesso de usuários simultâneos sem degradação significativa de desempenho. 
+| RNF6 | A plataforma deve ser totalmente compatível com a Lei Geral de Proteção de Dados (LGPD), garantindo que todos os dados pessoais dos usuários sejam tratados de maneira transparente e segura. |
+
 
 ### 3.3.3 Usuários 
 
