@@ -50,14 +50,14 @@ O UaiWork não realiza gestão de pagamentos ou integração com gateways de ter
 
 | RF | Solicitação de serviço | O cliente poderá enviar uma solicitação de serviço para um prestador específico. |
 | RF | Aceitação ou recusa da solicitação | O prestador poderá aceitar ou recusar a solicitação de serviço enviada pelo cliente. |
-| RF | Comunicação Direta |  O sistema deverá permitir que cliente e prestador de serviço se comuniquem por meio de chat ou mensagens dentro da plataforma antes de formalizar o acordo. |
-| RF | Métodos de pagamento |
-| RF | Sistema de avaliação de serviço |
-| RF | Exibição de avaliações |
+| RF | Comunicação Direta |  O sistema deverá permitir que cliente e prestador de serviço se comuniquem por meio de chat ou mensagens dentro da plataforma antes de formalizar o acordo. | ------ |
+| RF | Métodos de pagamento | --------|
+| RF | Sistema de avaliação de serviço | ---------- |
+| RF | Exibição de avaliações | ------- |
 | RF | Sistema de feedback construtivo |
-| RF | Notificações de solicitação e resposta |
-| RF | Lembretes de compromissos |
-| RF | Notificações de feedback |
+| RF | Notificações de solicitação e resposta |------|
+| RF | Lembretes de compromissos |--------|
+| RF | Notificações de feedback |-------|
 | RF6	| Gestão de serviço prestado  |	O sistema deverá permitir adicionar serviço prestado e atualizar seu progresso, tanto pelo prestador quanto pelo cliente |
 | RF7 |	Avaliação de serviço prestado | Após a conclusão do serviço, tanto o cliente quanto o prestador poderão avaliar a experiênci final |
 | RF8 | Pesquisa por prestador de serviço | O sistema deverá oferecer filtros para que o cliente refine sua busca, como faixa de preço, avaliação do prestador, e disponibilidade. |
