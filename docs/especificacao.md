@@ -42,12 +42,26 @@ O UaiWork não realiza gestão de pagamentos ou integração com gateways de ter
 
 | Código | Requisito Funcional (Funcionalidade) | Descrição |
 |--------------------|------------------------------------|----------------------------------------|
-| RF1 | Gestão de Conta de Usuário | O sistema deverá permitir que tanto prestadores de serviços quanto clientes se cadastrem na plataforma fornecendo informações essenciais, como nome, e-mail, telefone e tipo de usuário (prestador ou cliente) e façam gestão de suas contas. |
-| RF2 |	Recuperação de Senha	|  O sistema deverá permitir que tanto prestadores de serviços quanto clientes se cadastrem na plataforma fornecendo informações essenciais, como nome, e-mail, telefone e tipo de usuário (prestador ou cliente). |
-| RF3	| Gestão de serviço prestado  |	O sistema deverá permitir adicionar serviço prestado e atualizar seu progresso, tanto pelo prestador quanto pelo cliente |
-| RF4 |	Avaliação de serviço prestado | Após a conclusão do serviço, tanto o cliente quanto o prestador poderão avaliar a experiênci final |
-| RF5 | Pesquisa por prestador de serviço | O sistema deverá oferecer filtros para que o cliente refine sua busca, como faixa de preço, avaliação do prestador, e disponibilidade. |
-| RF6 | Gestão de Indicações | O sistema deve permitir que clientes e prestadores indiquem um ao outro, editem ou removam suas indicações |
+| RF1 | Cadastro de usuário |  O sistema deverá permitir que tanto prestadores de serviços quanto clientes se cadastrem na plataforma fornecendo informações essenciais, como nome, e-mail, telefone e tipo de usuário (prestador ou cliente). |
+| RF2 | Autenticação de usuário | O sistema deverá permitir que os usuários façam login na plataforma através de e-mail e senha ou via autenticação por redes sociais. |
+| RF3 |	Recuperação de senha	|  O sistema deverá permitir que os usuários recuperem suas senhas em caso de esquecimento.  |
+| RF4 | Sistema de verificação | O sistema poderá permitir a verificação de identidade (via documentos ou biometria) para aumentar a confiança na plataforma. |
+| RF5  |  Pesquisa de prestadores de serviço | O cliente poderá buscar prestadores de serviço baseados em palavras-chave, categorias de serviços, localização e avaliações de outros clientes.
+
+| RF | Solicitação de serviço | O cliente poderá enviar uma solicitação de serviço para um prestador específico. |
+| RF | Aceitação ou recusa da solicitação | O prestador poderá aceitar ou recusar a solicitação de serviço enviada pelo cliente. |
+| RF | Comunicação Direta |  O sistema deverá permitir que cliente e prestador de serviço se comuniquem por meio de chat ou mensagens dentro da plataforma antes de formalizar o acordo. |
+| RF | Métodos de pagamento |
+| RF | Sistema de avaliação de serviço |
+| RF | Exibição de avaliações |
+| RF | Sistema de feedback construtivo |
+| RF | Notificações de solicitação e resposta |
+| RF | Lembretes de compromissos |
+| RF | Notificações de feedback |
+| RF6	| Gestão de serviço prestado  |	O sistema deverá permitir adicionar serviço prestado e atualizar seu progresso, tanto pelo prestador quanto pelo cliente |
+| RF7 |	Avaliação de serviço prestado | Após a conclusão do serviço, tanto o cliente quanto o prestador poderão avaliar a experiênci final |
+| RF8 | Pesquisa por prestador de serviço | O sistema deverá oferecer filtros para que o cliente refine sua busca, como faixa de preço, avaliação do prestador, e disponibilidade. |
+| RF9 | Gestão de Indicações | O sistema deve permitir que clientes e prestadores indiquem um ao outro, editem ou removam suas indicações |
 
 ### 3.3.2 Requisitos Não Funcionais
 
