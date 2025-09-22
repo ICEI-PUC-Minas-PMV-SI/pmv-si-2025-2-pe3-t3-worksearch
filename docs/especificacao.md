@@ -139,7 +139,7 @@ d)	O Sistema apresenta os detalhes do professor no formulário de professores. <
 
 Pós-condições: Um professor foi inserido ou removido, seus dados foram alterados ou apresentados na tela.
 
-#### Cadastro de Usuário
+#### Cadastro de usuário
 
 O usuário se cadastra na plataforma para poder acessar as funcionalidades de busca, contratação e prestação de serviços. 
 
@@ -162,7 +162,7 @@ Fluxos Alternativos:
 
 Pós-condições: O usuário terá um perfil criado, podendo acessar a plataforma com o login. 
 
-#### Recuperação de Senha
+#### Recuperação de senha
 O usuário pode recuperar sua senha caso tenha esquecido. 
 
 Atores: Cliente, prestador de serviço 
@@ -220,6 +220,25 @@ Fluxo alternativo:
 1) Se o prestador recusar, o cliente será notificado e poderá procurar outro prestador de serviço.
 
 Pós-condições: A solicitação de serviço foi enviada ao prestador de serviço, e ambos podem começar a se comunicar.
+
+#### Avaliação do serviço
+
+Após a conclusão do serviço, o cliente avalia o prestador de serviço com uma nota.
+
+Atores: Cliente
+
+Pré-condições: O serviço deve ter sido concluído.
+
+Fluxo principal:
+1) O cliente acessa o serviço concluído no seu histórico de serviços.
+2) O cliente seleciona a opção para avaliar o prestador.
+3) O cliente atribui uma nota de 1 a 5 estrelas.
+4) O sistema registra a avaliação e a exibe no perfil do prestador de serviço.
+
+Fluxo alternativo:
+1) Se o cliente não quiser deixar uma avaliação, ele pode optar por não avaliar o serviço.
+
+Pós-condições: A avaliação do cliente é registrada no sistema e fica disponível para futuros clientes.
 
 ### 3.4.3 Diagrama de Classes 
 
