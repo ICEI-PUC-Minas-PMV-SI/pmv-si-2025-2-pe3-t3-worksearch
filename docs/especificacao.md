@@ -144,6 +144,7 @@ Pós-condições: Um professor foi inserido ou removido, seus dados foram altera
 O usuário se cadastra na plataforma para poder acessar as funcionalidades de busca, contratação e prestação de serviços. 
 
 Atores: Cliente, Prestador de Serviço 
+
 Pré-condições: O usuário não deve estar logado no sistema. 
 
 Fluxo Principal:
@@ -160,6 +161,66 @@ Fluxos Alternativos:
 
 
 Pós-condições: O usuário terá um perfil criado, podendo acessar a plataforma com o login. 
+
+#### Recuperação de Senha
+O usuário pode recuperar sua senha caso tenha esquecido. 
+
+Atores: Cliente, Prestador de Serviço 
+
+Pré-condições: O usuário deve ter um cadastro na plataforma. 
+
+Fluxo Principal: 
+1) O usuário clica na opção "Esqueci minha senha" na tela de login.
+2) O sistema solicita o e-mail do usuário.
+3) O usuário insere o e-mail e o sistema envia um link de recuperação para o endereço informado.
+4) O usuário acessa o link e cria uma nova senha.
+5) O sistema confirma a alteração e direciona o usuário para a tela de login.
+
+Fluxo Alternativo:
+1) Se o e-mail fornecido não estiver registrado, o sistema informa que não há conta associada a esse e-mail.
+
+Pós-condições: O usuário recupera o acesso à plataforma com uma nova senha. 
+
+#### Pesquisa de prestadores de serviço
+
+O cliente pesquisa por prestadores de serviço dentro de uma categoria específica, usando filtros como localização, avaliação e preço.
+
+Atores: Cliente 
+
+Pré-condição: O cliente pode estar logado ou não na plataforma.
+
+Fluxo principal:
+1) O cliente acessa a página de pesquisa de serviços.
+2) O cliente escolhe uma categoria de serviço.
+3) O cliente define filtros de pesquisa, como preço, localização, avaliação dos prestadores e disponibilidade.
+4) O sistema exibe a lista de prestadores de serviço que atendem aos critérios definidos pelo cliente.
+5) O cliente visualiza os perfis dos prestadores de serviço e escolhe um para entrar em contato.
+
+Fluxo alternativo:
+1) Se não houver prestadores que atendem aos filtros, o sistema exibirá uma mensagem informando que não há resultados para os critérios selecionados.
+
+Pós-condições: O cliente pode visualizar os perfis dos prestadores.
+
+#### Solicitação de serviço 
+
+O cliente solicita um serviço de um prestador de serviço, podendo especificar detalhes sobre o trabalho.
+
+Atores: Cliente, Prestador de Serviço 
+
+Pré-condições: O cliente deve estar logado.
+
+Fluxo principal:
+1) O cliente visualiza o perfil do prestador de serviço escolhido.
+2) O cliente clica no botão "Solicitar serviço".
+3) O cliente preenche os detalhes do serviço (descrição, data, localização, dentre outros.)
+4) O prestador recebe a notificação da solicitação e tem a opção de aceitar ou recusar.
+5) Se o prestador aceitar, o cliente é notificado, e ambos podem comunicar-se.
+
+Fluxo alternativo:
+1) Se o prestador recusar, o cliente será notificado e poderá procurar outro prestador de serviço.
+
+Pós-condições: A solicitação de serviço foi enviada ao prestador de serviço, e ambos podem começar a se comunicar.
+
 ### 3.4.3 Diagrama de Classes 
 
 A Figura 2 mostra o diagrama de classes do sistema. A Matrícula deve conter a identificação do funcionário responsável pelo registro, bem com os dados do aluno e turmas. Para uma disciplina podemos ter diversas turmas, mas apenas um professor responsável por ela.
