@@ -143,7 +143,7 @@ Pós-condições: Um professor foi inserido ou removido, seus dados foram altera
 
 O usuário se cadastra na plataforma para poder acessar as funcionalidades de busca, contratação e prestação de serviços. 
 
-Atores: Cliente, Prestador de Serviço 
+Atores: Cliente, prestador de serviço 
 
 Pré-condições: O usuário não deve estar logado no sistema. 
 
@@ -165,7 +165,7 @@ Pós-condições: O usuário terá um perfil criado, podendo acessar a plataform
 #### Recuperação de Senha
 O usuário pode recuperar sua senha caso tenha esquecido. 
 
-Atores: Cliente, Prestador de Serviço 
+Atores: Cliente, prestador de serviço 
 
 Pré-condições: O usuário deve ter um cadastro na plataforma. 
 
@@ -205,7 +205,7 @@ Pós-condições: O cliente pode visualizar os perfis dos prestadores.
 
 O cliente solicita um serviço de um prestador de serviço, podendo especificar detalhes sobre o trabalho.
 
-Atores: Cliente, Prestador de Serviço 
+Atores: Cliente, prestador de serviço 
 
 Pré-condições: O cliente deve estar logado.
 
