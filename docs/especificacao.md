@@ -47,31 +47,27 @@ O UaiWork não realiza gestão de pagamentos ou integração com gateways de ter
 | RF3 |	Recuperação de senha	|  O sistema deverá permitir que os usuários recuperem suas senhas em caso de esquecimento.  |
 | RF4 | Sistema de verificação | O sistema poderá permitir a verificação de identidade (via documentos ou biometria) para aumentar a confiança na plataforma. |
 | RF5  |  Pesquisa de prestadores de serviço | O cliente poderá buscar prestadores de serviço baseados em palavras-chave, categorias de serviços, localização e avaliações de outros clientes.
-| RF | Solicitação de serviço | O cliente poderá enviar uma solicitação de serviço para um prestador específico. |
-| RF | Aceitação ou recusa da solicitação | O prestador poderá aceitar ou recusar a solicitação de serviço enviada pelo cliente. |
-| RF | Comunicação Direta |  O sistema deverá permitir que cliente e prestador de serviço se comuniquem por meio de chat ou mensagens dentro da plataforma antes de formalizar o acordo.
-| RF | Métodos de pagamento | --------|
-| RF | Sistema de avaliação de serviço | Após a conclusão do serviço, tanto o cliente quanto o prestador poderão avaliar a experiência por meio de uma nota (1 a 5 estrelas) e um comentário. |
-| RF | Exibição de avaliações | As avaliações do cliente serão visíveis para futuros clientes, e as avaliações dos prestadores de serviço serão visíveis para outros prestadores ou usuários. |
-| RF | Sistema de feedback construtivo |  O sistema permitirá que o cliente forneça feedback construtivo diretamente ao prestador, sem prejudicar a imagem pública do prestador de serviço. |
-| RF | Notificações de solicitação e resposta |------|
-| RF | Lembretes de compromissos |--------|
-| RF | Notificações de feedback |-------|
-| RF6	| Gestão de serviço prestado  |	O sistema deverá permitir adicionar serviço prestado e atualizar seu progresso, tanto pelo prestador quanto pelo cliente |
-| RF7 |	Avaliação de serviço prestado | Após a conclusão do serviço, tanto o cliente quanto o prestador poderão avaliar a experiênci final |
-| RF8 | Pesquisa por prestador de serviço | O sistema deverá oferecer filtros para que o cliente refine sua busca, como faixa de preço, avaliação do prestador, e disponibilidade. |
-| RF9 | Gestão de Indicações | O sistema deve permitir que clientes e prestadores indiquem um ao outro, editem ou removam suas indicações |
+| RF6 | Solicitação de serviço | O cliente poderá enviar uma solicitação de serviço para um prestador específico. |
+| RF7 | Aceitação ou recusa da solicitação | O prestador poderá aceitar ou recusar a solicitação de serviço enviada pelo cliente. |
+| RF8 | Comunicação Direta |  O sistema deverá permitir que cliente e prestador de serviço se comuniquem por meio de chat ou mensagens dentro da plataforma antes de formalizar o acordo.
+| RF9 | Métodos de pagamento | --------|
+| RF10 | Sistema de avaliação de serviço | Após a conclusão do serviço, tanto o cliente quanto o prestador poderão avaliar a experiência por meio de uma nota (1 a 5 estrelas) e um comentário. |
+| RF11 | Exibição de avaliações | As avaliações do cliente serão visíveis para futuros clientes, e as avaliações dos prestadores de serviço serão visíveis para outros prestadores ou usuários. |
+| RF12 | Sistema de feedback construtivo |  O sistema permitirá que o cliente forneça feedback construtivo diretamente ao prestador, sem prejudicar a imagem pública do prestador de serviço. |
+| RF13 | Notificações | O sistema deverá notificar os usuários sempre que uma nova solicitação for feita, ou quando um prestador aceitar ou recusar uma solicitação. |
+| RF14	| Gestão de serviço prestado  |	O sistema deverá permitir adicionar serviço prestado e atualizar seu progresso, tanto pelo prestador quanto pelo cliente |
+| RF15 |	Avaliação de serviço prestado | Após a conclusão do serviço, tanto o cliente quanto o prestador poderão avaliar a experiênci final |
+| RF16 | Pesquisa por prestador de serviço | O sistema deverá oferecer filtros para que o cliente refine sua busca, como faixa de preço, avaliação do prestador, e disponibilidade. |
+| RF17 | Gestão de Indicações | O sistema deve permitir que clientes e prestadores indiquem um ao outro, editem ou removam suas indicações |
 
 ### 3.3.2 Requisitos Não Funcionais
 
 | Código | Requisito Não Funcional (Restrição) |
 |--------------------|------------------------------------|
 | RNF1 | A plataforma deverá ser acessível em diferentes dispositivos, como desktops, smartphones e tablets, garantindo uma boa experiência de uso em qualquer tipo de tela.  |
-| RNF2 |--------- |
-| RNF3 |---------|
-| RNF4 | A plataforma deve ser capaz de processar requisições (como busca de prestadores de serviço ou envio de solicitações) em até 3 segundos, em média.
-| RNF5 | O sistema deverá ser escalável para suportar picos de acesso de usuários simultâneos sem degradação significativa de desempenho. 
-| RNF6 | A plataforma deve ser totalmente compatível com a Lei Geral de Proteção de Dados (LGPD), garantindo que todos os dados pessoais dos usuários sejam tratados de maneira transparente e segura. |
+| RNF2 | A plataforma deve ser capaz de processar requisições (como busca de prestadores de serviço ou envio de solicitações) em até 3 segundos, em média.
+| RNF3 | O sistema deverá ser escalável para suportar picos de acesso de usuários simultâneos sem degradação significativa de desempenho. 
+| RNF4 | A plataforma deve ser totalmente compatível com a Lei Geral de Proteção de Dados (LGPD), garantindo que todos os dados pessoais dos usuários sejam tratados de maneira transparente e segura. |
 
 
 ### 3.3.3 Usuários 
