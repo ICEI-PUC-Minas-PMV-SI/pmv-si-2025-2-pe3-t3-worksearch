@@ -139,6 +139,27 @@ d)	O Sistema apresenta os detalhes do professor no formulário de professores. <
 
 Pós-condições: Um professor foi inserido ou removido, seus dados foram alterados ou apresentados na tela.
 
+#### Cadastro de Usuário
+
+O usuário se cadastra na plataforma para poder acessar as funcionalidades de busca, contratação e prestação de serviços. 
+
+Atores: Cliente, Prestador de Serviço 
+Pré-condições: O usuário não deve estar logado no sistema. 
+
+Fluxo Principal:
+
+1) 	O usuário acessa a página inicial da plataforma.
+2) 	O usuário escolhe entre se cadastrar como prestador de serviço ou cliente. 
+3) 	O usuário preenche o formulário de cadastro com informações básicas, como nome, e-mail, telefone e senha. 
+4) 	O sistema envia um link de confirmação para o e-mail informado.
+
+Fluxos Alternativos:
+
+1) Se o usuário tentar se cadastrar com um e-mail já registrado, o sistema informa que o e-mail já está em uso e solicita uma nova tentativa. 
+2) Se o usuário esquecer a senha, o sistema oferece a opção de recuperação de senha. 
+
+
+Pós-condições: O usuário terá um perfil criado, podendo acessar a plataforma com o login. 
 ### 3.4.3 Diagrama de Classes 
 
 A Figura 2 mostra o diagrama de classes do sistema. A Matrícula deve conter a identificação do funcionário responsável pelo registro, bem com os dados do aluno e turmas. Para uma disciplina podemos ter diversas turmas, mas apenas um professor responsável por ela.
