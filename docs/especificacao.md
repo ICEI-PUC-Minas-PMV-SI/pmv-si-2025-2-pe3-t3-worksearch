@@ -87,9 +87,9 @@ O UaiWork não realiza gestão de pagamentos ou integração com gateways de ter
 Como observado no diagrama de casos de uso da Figura 1, a secretária poderá gerenciar as matrículas e professores no sistema, enquanto o coordenador, além dessas funções, poderá gerenciar os cursos de aperfeiçoamento.
 
 #### Figura 1: Diagrama de Casos de Uso do Sistema.
-
 <img width="1360" height="1760" alt="Image" src="https://github.com/user-attachments/assets/e9d047a3-a2ab-43eb-bdae-4d78250007b1" />
- 
+#### Figura 2: Diagrama de Casos de Uso do Sistema.
+<img width="1220" height="1020" alt="Image" src="https://github.com/user-attachments/assets/1283db65-22f0-4240-be49-2a306bc58d41" />
 ### 3.4.2 Descrições de Casos de Uso
 
 Cada caso de uso deve ter a sua descrição representada nesta seção. Exemplo:
