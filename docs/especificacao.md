@@ -43,22 +43,20 @@ O UaiWork não realiza gestão de pagamentos ou integração com gateways de ter
 | Código | Requisito Funcional (Funcionalidade) | Descrição |
 |--------------------|------------------------------------|----------------------------------------|
 | RF1 | Cadastro de usuário |  O sistema deverá permitir que tanto prestadores de serviços quanto clientes se cadastrem na plataforma fornecendo informações essenciais, como nome, e-mail, telefone e tipo de usuário (prestador ou cliente). |
-| RF2 | Autenticação de usuário | O sistema deverá permitir que os usuários façam login na plataforma através de e-mail e senha ou via autenticação por redes sociais. |
-| RF3 |	Recuperação de senha	|  O sistema deverá permitir que os usuários recuperem suas senhas em caso de esquecimento.  |
-| RF4 | Sistema de verificação | O sistema poderá permitir a verificação de identidade (via documentos ou biometria) para aumentar a confiança na plataforma. |
-| RF5  |  Pesquisa de prestadores de serviço | O cliente poderá buscar prestadores de serviço baseados em palavras-chave, categorias de serviços, localização e avaliações de outros clientes.
-| RF6 | Solicitação de serviço | O cliente poderá enviar uma solicitação de serviço para um prestador específico. |
-| RF7 | Aceitação ou recusa da solicitação | O prestador poderá aceitar ou recusar a solicitação de serviço enviada pelo cliente. |
-| RF8 | Comunicação Direta |  O sistema deverá permitir que cliente e prestador de serviço se comuniquem por meio de chat ou mensagens dentro da plataforma antes de formalizar o acordo.
-| RF9 | Métodos de pagamento | --------|
+| RF2 | Login de Usuário | O sistema deverá permitir que usuários previamente cadastrados realizem login utilizando suas credenciais (usuário/e-mail e senha) e gerenciem os dados da sua conta. Isso inclui a inclusão de novas contas, remoção de contas existentes, alteração de dados cadastrais e consulta de informações do usuário. |
+| RF3 | Autenticação de usuário | O sistema deverá permitir que os usuários façam login na plataforma através de e-mail e senha ou via autenticação por redes sociais. |
+| RF4 |	Recuperação de senha	|  O sistema deverá permitir que os usuários recuperem suas senhas em caso de esquecimento.  |
+| RF5 | Sistema de verificação | O sistema poderá permitir a verificação de identidade (via documentos ou biometria) para aumentar a confiança na plataforma. |
+| RF6  |  Pesquisa de prestadores de serviço | O cliente poderá buscar prestadores de serviço baseados em palavras-chave, categorias de serviços, localização e avaliações de outros clientes.
+| RF7 | Solicitação de serviço | O cliente poderá enviar uma solicitação de serviço para um prestador específico. |
+| RF8 | Aceitação ou recusa da solicitação | O prestador poderá aceitar ou recusar a solicitação de serviço enviada pelo cliente. |
+| RF9 | Comunicação Direta |  O sistema deverá permitir que cliente e prestador de serviço se comuniquem por meio de chat ou mensagens dentro da plataforma antes de formalizar o acordo.
 | RF10 | Sistema de avaliação de serviço | Após a conclusão do serviço, tanto o cliente quanto o prestador poderão avaliar a experiência por meio de uma nota (1 a 5 estrelas) e um comentário. |
 | RF11 | Exibição de avaliações | As avaliações do cliente serão visíveis para futuros clientes, e as avaliações dos prestadores de serviço serão visíveis para outros prestadores ou usuários. |
 | RF12 | Sistema de feedback construtivo |  O sistema permitirá que o cliente forneça feedback construtivo diretamente ao prestador, sem prejudicar a imagem pública do prestador de serviço. |
 | RF13 | Notificações | O sistema deverá notificar os usuários sempre que uma nova solicitação for feita, ou quando um prestador aceitar ou recusar uma solicitação. |
 | RF14	| Gestão de serviço prestado  |	O sistema deverá permitir adicionar serviço prestado e atualizar seu progresso, tanto pelo prestador quanto pelo cliente |
-| RF15 |	Avaliação de serviço prestado | Após a conclusão do serviço, tanto o cliente quanto o prestador poderão avaliar a experiênci final |
-| RF16 | Pesquisa por prestador de serviço | O sistema deverá oferecer filtros para que o cliente refine sua busca, como faixa de preço, avaliação do prestador, e disponibilidade. |
-| RF17 | Gestão de Indicações | O sistema deve permitir que clientes e prestadores indiquem um ao outro, editem ou removam suas indicações |
+| RF15 | Gestão de Indicações | O sistema deve permitir que clientes e prestadores indiquem um ao outro, editem ou removam suas indicações |
 
 ### 3.3.2 Requisitos Não Funcionais
 
@@ -95,108 +93,216 @@ O UaiWork não realiza gestão de pagamentos ou integração com gateways de ter
 
 ### 3.4.2 Descrições de Casos de Uso
 
-Cada caso de uso deve ter a sua descrição representada nesta seção.
+| **Cadastrar Usuário (CSU01)** |
+|-------------------------------|
+| **Sumário:** O usuário se cadastra na plataforma para poder acessar as funcionalidades de busca, contratação e prestação de serviços. |
+| **Atores:** Usuário (cliente ou prestador). |
+| **Pré-condições:** O sistema deve estar disponível e acessível ao usuário que deseja se cadastrar. |
+| **Fluxo Principal:** |
+| 1. O usuário acessa a página inicial da plataforma. |
+| 2. O usuário escolhe entre se cadastrar como prestador de serviço ou cliente. |
+| 3. O Sistema apresenta uma janela com formulário de cadastro. |
+| 4. O usuário preenche o formulário de cadastro com informações básicas, como nome, e-mail, telefone e senha. |
+| 5. O sistema envia um link de confirmação para o e-mail informado. |
+| **Fluxos Alternativos:** |
+| 1. Se o usuário tentar se cadastrar com um e-mail já registrado, o sistema informa que o e-mail já está em uso e solicita uma nova tentativa. |
+| **Pós-condições:** O usuário terá um perfil criado, podendo acessar a plataforma com o login. |
 
-#### Cadastrar usuário (CSU01)
+| **Login de Usuário (CSU02)** |
+|-------------------------------|
+| **Sumário:** O usuário realiza o login e gestão (inclusão, remoção, alteração e consulta) dos dados sobre usuário. |
+| **Ator Primário:** Usuário (cliente ou prestador). |
+| **Ator Secundário:** Sistema. |
+| **Pré-condições:** O usuário já deve ser cadastrado e validado pelo Sistema. |
+| **Fluxo Principal:** |
+| 1. O usuário requisita o login de usuário. |
+| 2. O Sistema apresenta campos de usuário/e-mail e senha para o usuário preencher. |
+| 3. O usuário preenche os campos de usuário/e-mail e senha com os respectivos dados. |
+| 4. O Sistema verifica a validade dos dados. Se os dados forem válidos, o usuário é autenticado e acessa a conta referente; caso contrário, o Sistema reporta o fato, solicita novos dados e repete a verificação. |
+| **Fluxo Alternativo (1) – Inclusão:** |
+| 1. O usuário requisita a inclusão de uma nova conta de usuário. |
+| 2. O Sistema apresenta uma janela solicitando o e-mail do usuário a ser cadastrado. |
+| 3. O usuário fornece o dado solicitado. |
+| 4. O Sistema verifica se o usuário já está cadastrado. Se sim, o Sistema reporta o fato e volta ao início; caso contrário, apresenta um formulário em branco para que os detalhes do usuário (Código, Tipo de Usuário, Nome, Endereço, CEP, Estado, Cidade, Bairro, Telefone, Identidade, Sexo, CPF, Data do Cadastro e Descrição) sejam incluídos. |
+| 5. O usuário fornece os detalhes da nova conta de usuário. |
+| 6. O Sistema verifica a validade dos dados. Se os dados forem válidos, inclui o novo usuário e a tabela do banco de dados de usuários é atualizada; caso contrário, o Sistema reporta o fato, solicita novos dados e repete a verificação. |
+| **Fluxo Alternativo (2) – Remoção:** |
+| 1. O usuário seleciona a opção “Excluir conta” e requisita ao Sistema que o remova. |
+| 2. O Sistema mostra uma tela de confirmação de remoção. |
+| 3. O usuário confirma a remoção da conta. |
+| 4. O Sistema realiza a remoção da conta. |
+| **Fluxo Alternativo (3) – Alteração:** |
+| 1. O usuário altera um ou mais dos detalhes na conta de usuário e requisita ao sistema a sua atualização. |
+| 2. O Sistema verifica a validade dos dados e, se eles forem válidos, altera os dados na tabela de usuários no banco de dados; caso contrário, o erro é reportado. |
+| **Fluxo Alternativo (4) – Consulta:** |
+| 1. O usuário solicita a consulta sobre a conta de usuário. |
+| 2. O Sistema apresenta uma tela contendo informações detalhadas sobre a conta de usuário. |
+| **Pós-condições:** Um usuário foi inserido ou removido, seus dados foram alterados ou apresentados na tela. |
 
-Sumário: O usuário se cadastra na plataforma para poder acessar as funcionalidades de busca, contratação e prestação de serviços. 
+| **Autenticação de Usuário (CSU03)** |
+|-------------------------------------|
+| **Sumário:** Permite que o usuário acesse a plataforma por meio de uma autenticação de e-mail e senha. |
+| **Ator Primário:** Usuário (cliente ou prestador). |
+| **Ator Secundário:** Sistema. |
+| **Pré-condições:** O usuário já deve ser cadastrado e validado pelo Sistema. |
+| **Fluxo Principal:** |
+| 1. O usuário acessa a tela de login. |
+| 2. Informa e-mail e senha de usuário válidos. |
+| 3. O sistema valida as credenciais; se forem válidas, o usuário é autenticado e redirecionado para o painel principal; caso contrário, o sistema reporta o fato, solicita novos dados e repete a verificação. |
+| **Pós-condições:** O usuário é autenticado na plataforma. |
 
-Atores: Cliente, prestador de serviço 
+| **Recuperação de Senha (CSU04)** |
+|----------------------------------|
+| **Sumário:** Permite que os usuários recuperem o acesso em caso de esquecimento de senha. |
+| **Ator Primário:** Usuário. |
+| **Ator Secundário:** Sistema. |
+| **Pré-condições:** O usuário já deve ser cadastrado e validado pelo Sistema. |
+| **Fluxo Principal:** |
+| 1. O usuário seleciona “Esqueci minha senha”, requisitando uma redefinição de senha para o sistema. |
+| 2. O usuário informa o e-mail da conta para o sistema. |
+| 3. Caso o e-mail seja cadastrado no sistema, o sistema envia um link para redefinição de senha, o usuário acessa o link e cria uma nova senha; caso contrário, o sistema exibe uma mensagem de erro. |
+| **Pós-condições:** O usuário possui uma nova senha ativa para login. |
 
-Pré-condições: O usuário não deve estar logado no sistema. 
+| **Sistema de Verificação (CSU05)** |
+|------------------------------------|
+| **Sumário:** Permite aumentar a confiança da plataforma por meio da verificação de identidade. |
+| **Ator Primário:** Usuário (cliente ou prestador). |
+| **Ator Secundário:** Serviço externo de validação de documento/biometria. |
+| **Pré-condições:** O usuário já deve ser cadastrado e validado pelo Sistema. |
+| **Fluxo Principal:** |
+| 1. O usuário solicita a verificação de identidade. |
+| 2. O usuário envia os documentos ou realiza a biometria. |
+| 3. O sistema encaminha os dados para a validação. |
+| 4. A validação é concluída e o status “Verificado” é atualizado no perfil do usuário; caso os dados não sejam validados, o sistema informa a rejeição e solicita nova tentativa. |
+| **Pós-condições:** O usuário passa a ter o perfil marcado como “Verificado”. |
 
-Fluxo Principal:
+| **Pesquisar por Prestadores de Serviço (CSU06)** |
+|--------------------------------------------------|
+| **Sumário:** O cliente pesquisa por prestadores de serviço dentro de uma categoria específica, usando filtros como localização, avaliação e preço. |
+| **Atores:** Cliente |
+| **Pré-condições:** O cliente já deve ser cadastrado e validado pelo Sistema. |
+| **Fluxo Principal:** |
+| 1. O cliente acessa a página de pesquisa de serviços. |
+| 2. O cliente insere palavras-chave ou seleciona filtros (categoria, localização, preço, disponibilidade etc.). |
+| 3. O sistema exibe a lista de prestadores de serviço que atendem aos critérios definidos pelo cliente. |
+| 4. O cliente visualiza os perfis dos prestadores de serviço e escolhe um para entrar em contato. |
+| **Fluxo Alternativo:** |
+| 1. Se não houver prestadores que atendem aos filtros, o sistema exibirá uma mensagem informando que não há resultados para os critérios selecionados. |
+| **Pós-condições:** O resultado da pesquisa de prestadores é exibido para o cliente. |
 
-1) 	O usuário acessa a página inicial da plataforma.
-2) 	O usuário escolhe entre se cadastrar como prestador de serviço ou cliente. 
-3) 	O usuário preenche o formulário de cadastro com informações básicas, como nome, e-mail, telefone e senha. 
-4) 	O sistema envia um link de confirmação para o e-mail informado.
+| **Solicitar Serviço (CSU07)** |
+|-------------------------------|
+| **Sumário:** O cliente solicita um serviço de um prestador de serviço, podendo especificar detalhes sobre o trabalho. |
+| **Atores:** Cliente, prestador de serviço |
+| **Pré-condições:** O cliente deve estar logado. |
+| **Fluxo Principal:** |
+| 1. O cliente visualiza o perfil do prestador de serviço escolhido. |
+| 2. O cliente clica no botão "Solicitar serviço". |
+| 3. O cliente preenche os detalhes do serviço (descrição, data, localização, dentre outros). |
+| 4. O prestador recebe a notificação da solicitação e tem a opção de aceitar ou recusar. |
+| 5. Se o prestador aceitar, o cliente é notificado, e ambos podem comunicar-se. |
+| **Fluxo Alternativo:** |
+| 1. Se o prestador recusar, o cliente será notificado e poderá procurar outro prestador de serviço. |
+| **Pós-condições:** A solicitação de serviço foi enviada ao prestador de serviço, e ambos podem começar a se comunicar. |
 
-Fluxos Alternativos:
+| **Aceitação ou Recusa da Solicitação (CSU08)** |
+|------------------------------------------------|
+| **Sumário:** Permite que o prestador aceite ou recuse uma solicitação recebida. |
+| **Ator Primário:** Prestador de serviço. |
+| **Ator Secundário:** Cliente. |
+| **Pré-condições:** O prestador deve estar autenticado e ter recebido a solicitação. |
+| **Fluxo Principal:** |
+| 1. O prestador acessa a lista de solicitações. |
+| 2. O prestador visualiza os detalhes da solicitação. |
+| 3. O prestador aceita ou recusa a solicitação; caso contrário, se o prazo definido de resposta for ultrapassado, a mensagem é marcada como expirada. |
+| **Pós-condições:** A solicitação é atualizada com status de aceita ou recusada. |
 
-1) Se o usuário tentar se cadastrar com um e-mail já registrado, o sistema informa que o e-mail já está em uso e solicita uma nova tentativa. 
-2) Se o usuário esquecer a senha, o sistema oferece a opção de recuperação de senha. 
+| **Comunicação Direta (CSU09)** |
+|--------------------------------|
+| **Sumário:** Permite interação entre cliente e prestador via chat interno. |
+| **Ator Primário:** Cliente. |
+| **Ator Secundário:** Prestador de serviço. |
+| **Pré-condições:** Ambos (prestador e cliente) devem estar autenticados. |
+| **Fluxo Principal:** |
+| 1. Cliente ou prestador acessa o chat da solicitação. |
+| 2. Cliente ou prestador envia mensagens. |
+| 3. O sistema registra e exibe as mensagens em tempo real caso a conexão esteja estável; caso contrário, o sistema exibe erro de envio da mensagem. |
+| **Pós-condições:** Histórico de mensagens armazenado na solicitação. |
 
+| **Avaliar Serviço (CSU10)** |
+|-----------------------------|
+| **Sumário:** Após a conclusão do serviço, o cliente avalia o prestador de serviço com uma nota. |
+| **Atores:** Cliente |
+| **Pré-condições:** O serviço deve ter sido concluído. |
+| **Fluxo Principal:** |
+| 1. O cliente acessa o serviço concluído no seu histórico de serviços. |
+| 2. O cliente seleciona a opção para avaliar o prestador. |
+| 3. O cliente atribui uma nota de 1 a 5 estrelas. |
+| 4. O sistema registra a avaliação e a exibe no perfil do prestador de serviço. |
+| **Fluxo Alternativo:** |
+| 1. Se o cliente não quiser deixar uma avaliação, ele pode optar por não avaliar o serviço. |
+| **Pós-condições:** A avaliação do cliente é registrada no sistema e fica disponível para futuros clientes. |
 
-Pós-condições: O usuário terá um perfil criado, podendo acessar a plataforma com o login. 
+| **Exibição de Avaliações (CSU11)** |
+|-----------------------------------|
+| **Sumário:** Permite exibição pública de avaliações entre clientes e prestadores. |
+| **Ator Primário:** Cliente e Prestador. |
+| **Ator Secundário:** Sistema. |
+| **Pré-condições:** O serviço deve estar concluído. |
+| **Fluxo Principal:** |
+| 1. O usuário acessa o perfil de cliente ou prestador. |
+| 2. O sistema exibe as avaliações públicas (comentários e notas). |
+| 3. O usuário seleciona uma nota para o cliente ou prestador. |
+| 4. O usuário insere um comentário público e envia. |
+| **Pós-condições:** Avaliações ficam disponíveis para a consulta de todos os usuários. |
 
-#### Recuperar senha (CSU02)
-Sumário: O usuário pode recuperar sua senha caso tenha esquecido. 
+| **Sistema de Feedback Construtivo (CSU12)** |
+|---------------------------------------------|
+| **Sumário:** Permite feedback construtivo privado entre clientes e prestadores. |
+| **Ator Primário:** Cliente e Prestador. |
+| **Ator Secundário:** Sistema. |
+| **Pré-condições:** O serviço deve estar concluído. |
+| **Fluxo Principal:** |
+| 1. O usuário acessa o perfil de cliente ou prestador. |
+| 2. O sistema exibe as avaliações públicas (comentários e notas). |
+| 3. O usuário seleciona a opção de enviar um feedback. |
+| 4. O usuário insere um comentário e envia. |
+| **Pós-condições:** A avaliação de feedback privado aparece para o usuário designado. |
 
-Atores: Cliente, prestador de serviço 
+| **Notificações (CSU13)** |
+|---------------------------|
+| **Sumário:** Garante que usuários sejam notificados sobre solicitações e respostas. |
+| **Ator Primário:** Sistema. |
+| **Ator Secundário:** Cliente ou Prestador. |
+| **Pré-condições:** O serviço deve estar concluído. |
+| **Fluxo Principal:** |
+| 1. O sistema detecta um evento (nova solicitação, aceitação ou recusa). |
+| 2. O sistema envia uma notificação ao usuário correspondente. |
+| **Pós-condições:** Usuário informado sobre mudanças relevantes. |
 
-Pré-condições: O usuário deve ter um cadastro na plataforma. 
+| **Gestão de Serviço Prestado (CSU14)** |
+|----------------------------------------|
+| **Sumário:** Permite acompanhar e atualizar o andamento do serviço. |
+| **Ator Primário:** Prestador de serviço. |
+| **Ator Secundário:** Cliente. |
+| **Pré-condições:** Serviço deve ter sido aceito pelo prestador ou cliente. |
+| **Fluxo Principal:** |
+| 1. O prestador acessa o painel de serviços. |
+| 2. O prestador atualiza status (ex.: iniciado, em andamento, concluído). |
+| 3. O cliente acompanha o progresso. |
+| **Pós-condições:** Status atualizado refletido no sistema. |
 
-Fluxo Principal: 
-1) O usuário clica na opção "Esqueci minha senha" na tela de login.
-2) O sistema solicita o e-mail do usuário.
-3) O usuário insere o e-mail e o sistema envia um link de recuperação para o endereço informado.
-4) O usuário acessa o link e cria uma nova senha.
-5) O sistema confirma a alteração e direciona o usuário para a tela de login.
-
-Fluxo Alternativo:
-1) Se o e-mail fornecido não estiver registrado, o sistema informa que não há conta associada a esse e-mail.
-
-Pós-condições: O usuário recupera o acesso à plataforma com uma nova senha. 
-
-#### Pesquisar por prestadores de serviço (CSU03)
-
-Sumário: O cliente pesquisa por prestadores de serviço dentro de uma categoria específica, usando filtros como localização, avaliação e preço.
-
-Atores: Cliente 
-
-Pré-condição: O cliente pode estar logado ou não na plataforma.
-
-Fluxo principal:
-1) O cliente acessa a página de pesquisa de serviços.
-2) O cliente escolhe uma categoria de serviço.
-3) O cliente define filtros de pesquisa, como preço, localização, avaliação dos prestadores e disponibilidade.
-4) O sistema exibe a lista de prestadores de serviço que atendem aos critérios definidos pelo cliente.
-5) O cliente visualiza os perfis dos prestadores de serviço e escolhe um para entrar em contato.
-
-Fluxo alternativo:
-1) Se não houver prestadores que atendem aos filtros, o sistema exibirá uma mensagem informando que não há resultados para os critérios selecionados.
-
-Pós-condições: O cliente pode visualizar os perfis dos prestadores.
-
-#### Solicitar serviço (CSU04)
-
-Sumário: O cliente solicita um serviço de um prestador de serviço, podendo especificar detalhes sobre o trabalho.
-
-Atores: Cliente, prestador de serviço 
-
-Pré-condições: O cliente deve estar logado.
-
-Fluxo principal:
-1) O cliente visualiza o perfil do prestador de serviço escolhido.
-2) O cliente clica no botão "Solicitar serviço".
-3) O cliente preenche os detalhes do serviço (descrição, data, localização, dentre outros.)
-4) O prestador recebe a notificação da solicitação e tem a opção de aceitar ou recusar.
-5) Se o prestador aceitar, o cliente é notificado, e ambos podem comunicar-se.
-
-Fluxo alternativo:
-1) Se o prestador recusar, o cliente será notificado e poderá procurar outro prestador de serviço.
-
-Pós-condições: A solicitação de serviço foi enviada ao prestador de serviço, e ambos podem começar a se comunicar.
-
-#### Avaliar serviço (CSU05)
-
-Sumário: Após a conclusão do serviço, o cliente avalia o prestador de serviço com uma nota.
-
-Atores: Cliente
-
-Pré-condições: O serviço deve ter sido concluído.
-
-Fluxo principal:
-1) O cliente acessa o serviço concluído no seu histórico de serviços.
-2) O cliente seleciona a opção para avaliar o prestador.
-3) O cliente atribui uma nota de 1 a 5 estrelas.
-4) O sistema registra a avaliação e a exibe no perfil do prestador de serviço.
-
-Fluxo alternativo:
-1) Se o cliente não quiser deixar uma avaliação, ele pode optar por não avaliar o serviço.
-
-Pós-condições: A avaliação do cliente é registrada no sistema e fica disponível para futuros clientes.
+| **Gestão de Indicações (CSU15)** |
+|----------------------------------|
+| **Sumário:** Permite que clientes e prestadores indiquem, editem ou removam recomendações. |
+| **Ator Primário:** Cliente e Prestador. |
+| **Ator Secundário:** Cliente ou Prestador. |
+| **Pré-condições:** O serviço deve estar concluído. |
+| **Fluxo Principal:** |
+| 1. O usuário acessa a área de indicações. |
+| 2. O usuário registra, edita ou remove uma indicação. |
+| 3. O sistema salva a alteração. |
+| **Pós-condições:** Indicação é registrada, atualizada ou removida com sucesso. |
 
 ### 3.4.3 Diagrama de Classes 
 
