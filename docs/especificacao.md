@@ -344,11 +344,9 @@ O UaiWork não realiza gestão de pagamentos ou integração com gateways de ter
 
 ### 3.4.3 Diagrama de Classes 
 
-A Figura 2 mostra o diagrama de classes do sistema. A Matrícula deve conter a identificação do funcionário responsável pelo registro, bem com os dados do aluno e turmas. Para uma disciplina podemos ter diversas turmas, mas apenas um professor responsável por ela.
-
 #### Figura 2: Diagrama de Classes do Sistema.
- 
-![image](https://github.com/user-attachments/assets/abc7591a-b46f-4ea2-b8f0-c116b60eb24e)
+
+ ![WhatsApp Image 2025-09-28 at 16 41 13 (1)](https://github.com/user-attachments/assets/4e82527f-1a05-461b-aeec-11d30517b26d)
 
 
 ### 3.4.4 Descrições das Classes 
