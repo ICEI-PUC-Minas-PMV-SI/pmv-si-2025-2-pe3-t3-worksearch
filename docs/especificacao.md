@@ -79,17 +79,56 @@ O UaiWork não realiza gestão de pagamentos ou integração com gateways de ter
 
 ### 3.4.1 Diagrama de Casos de Uso
 
-#### Figura 1: Diagrama de Casos de Uso do Sistema.
+#### Figura 1: Diagrama de Casos de Uso do Sistema CSU01.
 
-<img width="1360" height="1760" alt="Image" src="https://github.com/user-attachments/assets/e9d047a3-a2ab-43eb-bdae-4d78250007b1" />
+<img width="1818" height="742" alt="01" src="https://github.com/user-attachments/assets/7202863c-c09f-4212-823e-0bd53b35bfc4" />
 
-#### Figura 2: Diagrama de Casos de Uso do Sistema.
 
-<img width="1220" height="1020" alt="Image" src="https://github.com/user-attachments/assets/1283db65-22f0-4240-be49-2a306bc58d41" />
+#### Figura 2: Diagrama de Casos de Uso do Sistema CSU02 e CSU03.
 
-#### Figura 3: Diagrama de Casos de Uso do Sistema.
+<img width="1417" height="491" alt="02-03" src="https://github.com/user-attachments/assets/49fc2b96-3352-436f-b2d8-64e91a78aa56" />
 
-<img width="1299" height="1160" alt="Image" src="https://github.com/user-attachments/assets/de9fc00f-d82c-4dcc-a740-20cb415561b4" />
+
+#### Figura 3: Diagrama de Casos de Uso do Sistema CSU04.
+
+<img width="2273" height="424" alt="04" src="https://github.com/user-attachments/assets/7020c61a-5c3d-4495-9cbb-e1c61d8757ab" />
+
+#### Figura 4: Diagrama de Casos de Uso do Sistema CSU05.
+
+<img width="2902" height="424" alt="05" src="https://github.com/user-attachments/assets/a0b5cc4b-0fbd-4b9c-a919-c816b63cbcef" />
+
+#### Figura 5: Diagrama de Casos de Uso do Sistema CSU06.
+
+<img width="1753" height="424" alt="06" src="https://github.com/user-attachments/assets/20f90a26-1d16-4be9-ab6f-baab6f81d0cc" />
+
+#### Figura 6: Diagrama de Casos de Uso do Sistema CSU07.
+
+<img width="1918" height="424" alt="07" src="https://github.com/user-attachments/assets/9c129d6d-7a1a-4515-80cb-e862e636e83b" />
+
+#### Figura 7: Diagrama de Casos de Uso do Sistema CSU08.
+
+<img width="1918" height="424" alt="08" src="https://github.com/user-attachments/assets/c6dea607-930a-4271-89e5-2ed878057c6a" />
+
+#### Figura 8: Diagrama de Casos de Uso do Sistema CSU09.
+
+<img width="1218" height="424" alt="09" src="https://github.com/user-attachments/assets/9b8b61f9-499e-4a6f-820c-7835a8e7ea5c" />
+
+#### Figura 9: Diagrama de Casos de Uso do Sistema CSU010.
+
+<img width="1717" height="512" alt="10" src="https://github.com/user-attachments/assets/be3dcbc0-8ac3-4341-a828-1fd5b534979a" />
+
+#### Figura 10: Diagrama de Casos de Uso do Sistema CSU013.
+
+<img width="1127" height="424" alt="13" src="https://github.com/user-attachments/assets/2c2e4704-5c57-4196-bb2f-f1625a1b2687" />
+
+#### Figura 11: Diagrama de Casos de Uso do Sistema CSU014.
+
+<img width="1184" height="424" alt="14" src="https://github.com/user-attachments/assets/e1b9ee72-5dca-4d91-b900-d7e5a56a5026" />
+
+#### Figura 12: Diagrama de Casos de Uso do Sistema CSU015.
+
+<img width="1218" height="424" alt="15" src="https://github.com/user-attachments/assets/98a14851-a40b-4c3a-8188-c103c66144b6" />
+
 
 ### 3.4.2 Descrições de Casos de Uso
 
