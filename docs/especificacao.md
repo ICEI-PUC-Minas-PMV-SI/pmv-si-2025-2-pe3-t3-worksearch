@@ -43,20 +43,19 @@ O UaiWork não realiza gestão de pagamentos ou integração com gateways de ter
 | Código | Requisito Funcional (Funcionalidade) | Descrição |
 |--------------------|------------------------------------|----------------------------------------|
 | RF1 | Cadastro de usuário |  O sistema deverá permitir que tanto prestadores de serviços quanto clientes se cadastrem na plataforma fornecendo informações essenciais, como nome, e-mail, telefone e tipo de usuário (prestador ou cliente). |
-| RF2 | Login de Usuário | O sistema deverá permitir que usuários previamente cadastrados realizem login utilizando suas credenciais (usuário/e-mail e senha) e gerenciem os dados da sua conta. Isso inclui a inclusão de novas contas, remoção de contas existentes, alteração de dados cadastrais e consulta de informações do usuário. |
-| RF3 | Autenticação de usuário | O sistema deverá permitir que os usuários façam login na plataforma através de e-mail e senha ou via autenticação por redes sociais. |
-| RF4 |	Recuperação de senha	|  O sistema deverá permitir que os usuários recuperem suas senhas em caso de esquecimento.  |
-| RF5 | Sistema de verificação | O sistema poderá permitir a verificação de identidade (via documentos ou biometria) para aumentar a confiança na plataforma. |
-| RF6  |  Pesquisa de prestadores de serviço | O cliente poderá buscar prestadores de serviço baseados em palavras-chave, categorias de serviços, localização e avaliações de outros clientes.
-| RF7 | Solicitação de serviço | O cliente poderá enviar uma solicitação de serviço para um prestador específico. |
-| RF8 | Aceitação ou recusa da solicitação | O prestador poderá aceitar ou recusar a solicitação de serviço enviada pelo cliente. |
-| RF9 | Comunicação Direta |  O sistema deverá permitir que cliente e prestador de serviço se comuniquem por meio de chat ou mensagens dentro da plataforma antes de formalizar o acordo.
-| RF10 | Sistema de avaliação de serviço | Após a conclusão do serviço, tanto o cliente quanto o prestador poderão avaliar a experiência por meio de uma nota (1 a 5 estrelas) e um comentário. |
-| RF11 | Exibição de avaliações | As avaliações do cliente serão visíveis para futuros clientes, e as avaliações dos prestadores de serviço serão visíveis para outros prestadores ou usuários. |
-| RF12 | Sistema de feedback construtivo |  O sistema permitirá que o cliente forneça feedback construtivo diretamente ao prestador, sem prejudicar a imagem pública do prestador de serviço. |
-| RF13 | Notificações | O sistema deverá notificar os usuários sempre que uma nova solicitação for feita, ou quando um prestador aceitar ou recusar uma solicitação. |
-| RF14	| Gestão de serviço prestado  |	O sistema deverá permitir adicionar serviço prestado e atualizar seu progresso, tanto pelo prestador quanto pelo cliente |
-| RF15 | Gestão de Indicações | O sistema deve permitir que clientes e prestadores indiquem um ao outro, editem ou removam suas indicações |
+| RF2 | Autenticação de usuário  | O sistema deverá permitir que usuários previamente cadastrados realizem login utilizando suas credenciais (usuário/e-mail e senha) e gerenciem os dados da sua conta. Isso inclui a inclusão de novas contas, remoção de contas existentes, alteração de dados cadastrais e consulta de informações do usuário. |
+| RF3 |	Recuperação de senha	|  O sistema deverá permitir que os usuários recuperem suas senhas em caso de esquecimento.  |
+| RF4 | Sistema de verificação | O sistema poderá permitir a verificação de identidade (via documentos ou biometria) para aumentar a confiança na plataforma. |
+| RF5  |  Pesquisa de prestadores de serviço | O cliente poderá buscar prestadores de serviço baseados em palavras-chave, categorias de serviços, localização e avaliações de outros clientes.
+| RF6 | Solicitação de serviço | O cliente poderá enviar uma solicitação de serviço para um prestador específico. |
+| RF7 | Aceitação ou recusa da solicitação | O prestador poderá aceitar ou recusar a solicitação de serviço enviada pelo cliente. |
+| RF8 | Comunicação Direta |  O sistema deverá permitir que cliente e prestador de serviço se comuniquem por meio de chat ou mensagens dentro da plataforma antes de formalizar o acordo.
+| RF9 | Sistema de avaliação de serviço | Após a conclusão do serviço, tanto o cliente quanto o prestador poderão avaliar a experiência por meio de uma nota (1 a 5 estrelas) e um comentário. |
+| RF10 | Exibição de avaliações | As avaliações do cliente serão visíveis para futuros clientes, e as avaliações dos prestadores de serviço serão visíveis para outros prestadores ou usuários. |
+| RF11 | Sistema de feedback construtivo |  O sistema permitirá que o cliente forneça feedback construtivo diretamente ao prestador, sem prejudicar a imagem pública do prestador de serviço. |
+| RF12 | Notificações | O sistema deverá notificar os usuários sempre que uma nova solicitação for feita, ou quando um prestador aceitar ou recusar uma solicitação. |
+| RF13	| Gestão de serviço prestado  |	O sistema deverá permitir adicionar serviço prestado e atualizar seu progresso, tanto pelo prestador quanto pelo cliente |
+| RF14 | Gestão de Indicações | O sistema deve permitir que clientes e prestadores indiquem um ao outro, editem ou removam suas indicações |
 
 ### 3.3.2 Requisitos Não Funcionais
 
@@ -79,53 +78,53 @@ O UaiWork não realiza gestão de pagamentos ou integração com gateways de ter
 
 ### 3.4.1 Diagrama de Casos de Uso
 
-#### Figura 1: Diagrama de Casos de Uso do Sistema CSU01.
+#### Figura 2: Diagrama de Casos de Uso do Sistema CSU01.
 
 <img width="1818" height="742" alt="01" src="https://github.com/user-attachments/assets/7202863c-c09f-4212-823e-0bd53b35bfc4" />
 
 
-#### Figura 2: Diagrama de Casos de Uso do Sistema CSU02 e CSU03.
+#### Figura 3: Diagrama de Casos de Uso do Sistema CSU02 e CSU03.
 
 <img width="1417" height="491" alt="02-03" src="https://github.com/user-attachments/assets/49fc2b96-3352-436f-b2d8-64e91a78aa56" />
 
 
-#### Figura 3: Diagrama de Casos de Uso do Sistema CSU04.
+#### Figura 4: Diagrama de Casos de Uso do Sistema CSU04.
 
 <img width="2273" height="424" alt="04" src="https://github.com/user-attachments/assets/7020c61a-5c3d-4495-9cbb-e1c61d8757ab" />
 
-#### Figura 4: Diagrama de Casos de Uso do Sistema CSU05.
+#### Figura 5: Diagrama de Casos de Uso do Sistema CSU05.
 
 <img width="2902" height="424" alt="05" src="https://github.com/user-attachments/assets/a0b5cc4b-0fbd-4b9c-a919-c816b63cbcef" />
 
-#### Figura 5: Diagrama de Casos de Uso do Sistema CSU06.
+#### Figura 6: Diagrama de Casos de Uso do Sistema CSU06.
 
 <img width="1753" height="424" alt="06" src="https://github.com/user-attachments/assets/20f90a26-1d16-4be9-ab6f-baab6f81d0cc" />
 
-#### Figura 6: Diagrama de Casos de Uso do Sistema CSU07.
+#### Figura 7: Diagrama de Casos de Uso do Sistema CSU07.
 
 <img width="1918" height="424" alt="07" src="https://github.com/user-attachments/assets/9c129d6d-7a1a-4515-80cb-e862e636e83b" />
 
-#### Figura 7: Diagrama de Casos de Uso do Sistema CSU08.
+#### Figura 8: Diagrama de Casos de Uso do Sistema CSU08.
 
 <img width="1918" height="424" alt="08" src="https://github.com/user-attachments/assets/c6dea607-930a-4271-89e5-2ed878057c6a" />
 
-#### Figura 8: Diagrama de Casos de Uso do Sistema CSU09.
+#### Figura 9: Diagrama de Casos de Uso do Sistema CSU09.
 
 <img width="1218" height="424" alt="09" src="https://github.com/user-attachments/assets/9b8b61f9-499e-4a6f-820c-7835a8e7ea5c" />
 
-#### Figura 9: Diagrama de Casos de Uso do Sistema CSU010.
+#### Figura 10: Diagrama de Casos de Uso do Sistema CSU010.
 
 <img width="1717" height="512" alt="10" src="https://github.com/user-attachments/assets/be3dcbc0-8ac3-4341-a828-1fd5b534979a" />
 
-#### Figura 10: Diagrama de Casos de Uso do Sistema CSU013.
+#### Figura 11: Diagrama de Casos de Uso do Sistema CSU013.
 
 <img width="1127" height="424" alt="13" src="https://github.com/user-attachments/assets/2c2e4704-5c57-4196-bb2f-f1625a1b2687" />
 
-#### Figura 11: Diagrama de Casos de Uso do Sistema CSU014.
+#### Figura 12: Diagrama de Casos de Uso do Sistema CSU014.
 
 <img width="1184" height="424" alt="14" src="https://github.com/user-attachments/assets/e1b9ee72-5dca-4d91-b900-d7e5a56a5026" />
 
-#### Figura 12: Diagrama de Casos de Uso do Sistema CSU015.
+#### Figura 13: Diagrama de Casos de Uso do Sistema CSU015.
 
 <img width="1218" height="424" alt="15" src="https://github.com/user-attachments/assets/98a14851-a40b-4c3a-8188-c103c66144b6" />
 
@@ -354,11 +353,16 @@ A Figura 2 mostra o diagrama de classes do sistema. A Matrícula deve conter a i
 
 ### 3.4.4 Descrições das Classes 
 
-| # | Nome | Descrição |
-|--------------------|------------------------------------|----------------------------------------|
-| 1	|	Aluno |	Cadastro de informações relativas aos alunos. |
-| 2	| Curso |	Cadastro geral de cursos de aperfeiçoamento. |
-| 3 |	Matrícula |	Cadastro de Matrículas de alunos nos cursos. |
-| 4 |	Turma |	Cadastro de turmas.
-| 5	|	Professor |	Cadastro geral de professores que ministram as disciplinas. |
-| ... |	... |	... |
+| # | Nome          | Descrição                                                                 |
+|---|---------------|---------------------------------------------------------------------------|
+| 1 | Usuário       | Representa a entidade principal do sistema, podendo ser cliente ou prestador. Possui informações de cadastro, autenticação e interação na plataforma. |
+| 2 | Cliente       | Usuário que solicita serviços na plataforma, podendo avaliar, recomendar e interagir com prestadores. |
+| 3 | Prestador     | Usuário que oferece serviços na plataforma, podendo aceitar solicitações, ser avaliado e recomendado. |
+| 4 | Serviço       | Entidade que representa o trabalho solicitado e oferecido, gerando avaliações, solicitações e recomendações. |
+| 5 | Avaliação     | Registro de feedback público do serviço prestado, contendo nota e comentário visível para outros usuários. |
+| 6 | Solicitação   | Pedido de um cliente a um prestador para execução de um serviço específico. Pode ser aceita ou recusada. |
+| 7 | Recomendação  | Indicação de confiança entre usuários (clientes ou prestadores), fortalecendo a reputação na plataforma. |
+| 8 | Notificação   | Mensagem automática enviada pelo sistema para informar usuários sobre eventos (ex.: nova solicitação, aceitação, recusa). |
+| 9 | Chat          | Canal de comunicação direta entre cliente e prestador dentro da plataforma. |
+|10 | Mensagem      | Conteúdo de texto enviado dentro do chat, permitindo interação entre cliente e prestador. |
+|11 | Indicação     | Registro formal de indicação criada por um usuário sobre outro, reforçando relações de confiança na plataforma. |
