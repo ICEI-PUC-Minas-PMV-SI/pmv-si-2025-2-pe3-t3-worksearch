@@ -1,7 +1,37 @@
 # 4. PROJETO DO DESIGN DE INTERAÇÃO
 
 ## 4.1 Personas
+PERSONA 1
 
+**NOME:** Maria Oliveira			 
+
+**IDADE:** 35 anos 
+
+**HOBBY:** Assistir séries, fazer yoga e organizar a casa no fim de semana. 
+
+**TRABALHO:** Analista Administrativa em uma empresa de médio porte, em Belo Horizonte – MG. 
+
+**PERSONALIDADE:** Prática, independente, detalhista, desconfiada com o que é novo. 
+
+**SONHOS:**  Ter mais tempo livre para cuidar de si e aproveitar a vida fora do trabalho. 
+
+**OBJETOS E LUGARES:**
+
+Smartphone: Usado o tempo todo (em todos os lugares). 
+
+Notebook: Usa para tarefas profissionais e, ocasionalmente, para resolver pendências pessoais. (Principalmente no trabalho, ocasionalmente em casa) 
+
+**OBJETIVOS CHAVE:**
+
+Resolver problemas domésticos de forma rápida porque tem pouco tempo disponível. 
+
+**COMO DEVEMOS TRATÁ-LA:**
+
+Com clareza e transparência: sem termos técnicos ou mensagens confusas 
+
+**NUNCA DEVEMOS:** 
+
+Ignorar mensagens ou demorar no suporte. 
 
 ## 4.2 Mapa de Empatia
 
