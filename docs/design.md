@@ -1,7 +1,7 @@
 # 4. PROJETO DO DESIGN DE INTERAÇÃO
 
 ## 4.1 Personas
-PERSONA 1
+**PERSONA 1**
 
 **NOME:** Maria Oliveira			 
 
@@ -35,7 +35,7 @@ Ignorar mensagens ou demorar no suporte.
 
 ## 4.2 Mapa de Empatia
 
-MAPA DE EMPATIA 1
+**MAPA DE EMPATIA 1**
 ![Image](https://github.com/user-attachments/assets/0ffa8806-4e04-4f49-8d52-a7e82519847c)
 
 ## 4.3 Protótipos das Interfaces
