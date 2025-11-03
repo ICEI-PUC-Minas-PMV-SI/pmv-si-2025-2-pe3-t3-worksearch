@@ -172,6 +172,8 @@
 
 ## 4.2 Mapa de Empatia
 
+![untitled (3)](https://github.com/user-attachments/assets/6c1c2dbb-db79-40e4-b447-e239e009ba98)
+
 ![untitled (2)](https://github.com/user-attachments/assets/dd632f19-5515-42c4-919e-70c29a8d3f96)
 
 ![untitled (1)](https://github.com/user-attachments/assets/821aa128-b05f-452d-8ed2-3a97c0a8432b)
@@ -180,7 +182,15 @@
 
 
 ## 4.3 Protótipos das Interfaces
-Apresente nesta seção os protótipos de alta fidelidade do sistema proposto. A fidelidade do protótipo refere-se ao nível de detalhes e funcionalidades incorporadas a ele. Assim, um protótipo de alta fidelidade é uma representação interativa do produto, baseada no computador ou em dispositivos móveis. Esse protótipo já apresenta maior semelhança com o design final em termos de detalhes e funcionalidades. No desenvolvimento dos protótipos, devem ser considerados os princípios gestálticos, as recomendações ergonômicas e as regras de design (como as 8 regras de ouro). É importante descrever no texto do relatório como os princípios gestálticos e as regras de ouro foram seguidas no projeto das interfaces. Nesta etapa deve-se dar uma ênfase na implementação do software de modo que possam ser realizados os testes com usuários na etapa seguinte.
+
+<img width="978" height="946" alt="Captura de tela de 2025-11-03 18-48-47" src="https://github.com/user-attachments/assets/4ccaea07-2562-40b3-8f7d-9129d80312a7" />
+<img width="547" height="734" alt="Captura de tela de 2025-11-03 18-49-40" src="https://github.com/user-attachments/assets/3751b1ec-47c9-440b-9a40-9815495a8274" />
+<img width="547" height="734" alt="Captura de tela de 2025-11-03 18-49-45" src="https://github.com/user-attachments/assets/66dd3384-3acd-4e99-9650-97b3a94bab8b" />
+<img width="1910" height="948" alt="Captura de tela de 2025-11-03 18-49-09" src="https://github.com/user-attachments/assets/ac8d7245-cbe4-4344-a016-b5b9be3fb05a" />
+<img width="1912" height="963" alt="Captura de tela de 2025-11-03 18-50-18" src="https://github.com/user-attachments/assets/708b365c-844c-4b30-bf92-af3372066302" />
+<img width="1912" height="963" alt="Captura de tela de 2025-11-03 18-51-03" src="https://github.com/user-attachments/assets/f12f7dc6-e851-481f-b110-8aac116b4623" />
+<img width="1912" height="963" alt="Captura de tela de 2025-11-03 18-51-22" src="https://github.com/user-attachments/assets/4c8f310f-6dac-4ec2-a44a-a9e8cd464982" />
+
 
 ## 4.4 Testes com Protótipos
 Nesta seção você deve apresentar os testes realizados com usuários utilizando os protótipos de alta fidelidade desenvolvidos na seção anterior. O objetivo é avaliar a usabilidade, a clareza das informações e a adequação do design às necessidades das personas definidas no projeto.
