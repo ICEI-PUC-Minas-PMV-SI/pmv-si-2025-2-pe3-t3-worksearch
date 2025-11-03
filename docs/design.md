@@ -172,8 +172,9 @@
 
 ## 4.2 Mapa de Empatia
 
-![untitled (1)](https://github.com/user-attachments/assets/821aa128-b05f-452d-8ed2-3a97c0a8432b)
+![untitled (2)](https://github.com/user-attachments/assets/dd632f19-5515-42c4-919e-70c29a8d3f96)
 
+![untitled (1)](https://github.com/user-attachments/assets/821aa128-b05f-452d-8ed2-3a97c0a8432b)
 
 ![untitled](https://github.com/user-attachments/assets/26a99b8b-a0be-4d1b-9274-ac4fa730808e)
 
