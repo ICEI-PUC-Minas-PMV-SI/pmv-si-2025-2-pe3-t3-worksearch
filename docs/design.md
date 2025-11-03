@@ -128,7 +128,7 @@
 
 ---
 
-### **PERSONA 4 - CLIENTE JOVEM TECH-SAVVY**
+### **PERSONA 4 - CLIENTE JOVEM ACOSTUMADO COM TECH**
 
 **NOME:** Carlos Henrique
 
@@ -172,6 +172,7 @@
 
 ## 4.2 Mapa de Empatia
 
+![untitled](https://github.com/user-attachments/assets/26a99b8b-a0be-4d1b-9274-ac4fa730808e)
 
 
 ## 4.3 Protótipos das Interfaces
