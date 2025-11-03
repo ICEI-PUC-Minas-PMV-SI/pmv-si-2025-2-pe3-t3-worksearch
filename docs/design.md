@@ -9,7 +9,7 @@
 
 **HOBBY:** Assistir séries, fazer yoga e organizar a casa no fim de semana. 
 
-**TRABALHO:** Analista Administrativa em uma empresa de médio porte, em Belo Horizonte – MG. 
+**TRABALHO:** Técnico Administrativo em uma empresa de médio porte, em Belo Horizonte – MG. 
 
 **PERSONALIDADE:** Prática, independente, detalhista, desconfiada com o que é novo. 
 
@@ -19,7 +19,7 @@
 
 Smartphone: Usado o tempo todo (em todos os lugares). 
 
-Notebook: Usa para tarefas profissionais e, ocasionalmente, para resolver pendências pessoais. (Principalmente no trabalho, ocasionalmente em casa) 
+Notebook: Usado principalmente para tarefas profissionais e, ocasionalmente, pessoais, aproveitando a praticidade e o campo de visão ampliado para compras e navegação online.
 
 **OBJETIVOS CHAVE:**
 
@@ -27,7 +27,7 @@ Resolver problemas domésticos de forma rápida porque tem pouco tempo disponív
 
 **COMO DEVEMOS TRATÁ-LA:**
 
-Com clareza e transparência: sem termos técnicos ou mensagens confusas 
+Com clareza e transparência.
 
 **NUNCA DEVEMOS:** 
 
