@@ -226,6 +226,10 @@
 
 ![untitled](https://github.com/user-attachments/assets/26a99b8b-a0be-4d1b-9274-ac4fa730808e)
 
+![mapa de empatia 5](https://github.com/user-attachments/assets/23681118-017e-4ba8-a8be-ac3c87a190dc)
+
+
+
 
 ## 4.3 Protótipos das Interfaces
 
