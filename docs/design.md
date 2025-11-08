@@ -170,6 +170,52 @@
 - Omitir informações sobre progresso do serviço
 - Limitar opções de comunicação digital
 
+### PERSONA 5 - CLIENTE COM BAIXO CONHECIMENTO TECNOLÓGICO
+
+**NOME:** Ana Lúcia Ferreira
+
+**IDADE:** 50 anos
+
+**PROFISSÃO:** Secretária em uma empresa de pequeno porte, em Belo Horizonte – MG.
+
+**HOBBIES:** Cuidar do jardim, cozinhar novas receitas e passar tempo com a família.
+
+**PERSONALIDADE:** Cuidadosa, gentil, paciente, mas insegura com tecnologia. Prefere o contato humano e explicações detalhadas.
+
+**SONHOS:** Ter mais conforto e praticidade no dia a dia, especialmente em casa, sem depender muito de outras pessoas para resolver problemas.
+
+**DISPOSITIVOS E CONTEXTO DE USO:**
+- **Smartphone:** Usa principalmente para ligações, WhatsApp e pesquisas simples (com ajuda quando necessário).
+- **Notebook:** Usa raramente, geralmente com auxílio de alguém da família.
+
+**OBJETIVOS NA PLATAFORMA:**
+
+- Conseguir contratar serviços domésticos com facilidade, sem precisar entender muito de tecnologia.
+- Ter acesso claro e direto às informações dos prestadores.
+- Sentir confiança e segurança em quem está contratando.
+- Ter suporte acessível e humano em caso de dúvidas.
+
+**FRUSTRAÇÕES:**
+
+- Plataformas complicadas e difíceis de usar.
+- Falta de atendimento humano ou respostas automáticas confusas.
+- Informações incompletas sobre valores e serviços.
+- Sentir-se insegura ao fornecer dados pessoais ou de pagamento.
+
+**COMO DEVEMOS TRATÁ-LA:**
+
+- Com linguagem simples, clara e acolhedora.
+- Guiando cada passo do processo de forma visual e didática.
+- Garantindo transparência total sobre preços, prazos e avaliações.
+- Oferecendo suporte humano rápido e empático (por chat, telefone ou WhatsApp).
+
+**NUNCA DEVEMOS:**
+
+- Usar termos técnicos ou explicações confusas.
+- Demorar a responder dúvidas ou deixá-la sem suporte.
+- Omitir informações sobre preços ou formas de pagamento.
+- Criar processos longos ou com muitas etapas que possam desmotivá-la.
+
 ## 4.2 Mapa de Empatia
 
 ![untitled (3)](https://github.com/user-attachments/assets/6c1c2dbb-db79-40e4-b447-e239e009ba98)
