@@ -302,21 +302,27 @@ O UaiWork não realiza gestão de pagamentos ou integração com gateways de ter
 
 #### Figura 2: Diagrama de Classes do Sistema.
 
- ![WhatsApp Image 2025-09-28 at 16 41 13 (1)](https://github.com/user-attachments/assets/4e82527f-1a05-461b-aeec-11d30517b26d)
+
 
 
 ### 3.4.4 Descrições das Classes 
 
 | # | Nome          | Descrição                                                                 |
 |---|---------------|---------------------------------------------------------------------------|
-| 1 | Usuário       | Representa a entidade principal do sistema, podendo ser cliente ou prestador. Possui informações de cadastro, autenticação e interação na plataforma. |
-| 2 | Cliente       | Usuário que solicita serviços na plataforma, podendo avaliar, recomendar e interagir com prestadores. |
-| 3 | Prestador     | Usuário que oferece serviços na plataforma, podendo aceitar solicitações, ser avaliado e recomendado. |
-| 4 | Serviço       | Entidade que representa o trabalho solicitado e oferecido, gerando avaliações, solicitações e recomendações. |
-| 5 | Avaliação     | Registro de feedback público do serviço prestado, contendo nota e comentário visível para outros usuários. |
-| 6 | Solicitação   | Pedido de um cliente a um prestador para execução de um serviço específico. Pode ser aceita ou recusada. |
-| 7 | Recomendação  | Indicação de confiança entre usuários (clientes ou prestadores), fortalecendo a reputação na plataforma. |
-| 8 | Notificação   | Mensagem automática enviada pelo sistema para informar usuários sobre eventos (ex.: nova solicitação, aceitação, recusa). |
-| 9 | Chat          | Canal de comunicação direta entre cliente e prestador dentro da plataforma. |
-|10 | Mensagem      | Conteúdo de texto enviado dentro do chat, permitindo interação entre cliente e prestador. |
-|11 | Indicação     | Registro formal de indicação criada por um usuário sobre outro, reforçando relações de confiança na plataforma. |
+| 1 | Usuário       | Representa a entidade principal do sistema, podendo ser Cliente ou Prestador. Contém informações de cadastro, autenticação, comunicação, verificação e interação geral na plataforma.|
+| 2 | Cliente       | Especialização da classe Usuário. Cliente solicita serviços, avalia prestadores, envia feedbacks, realiza indicações e participa da mediação quando necessário |
+| 3 | Prestador     | Especialização da classe Usuário. Prestador oferece serviços, recebe solicitações, atualiza status do serviço, é avaliado, indicado e possui um índice de confiabilidade associado. |
+| 4 | Serviço       | Representa o trabalho oferecido por um prestador. Inclui título, descrição, categoria e registros de progresso. Gera solicitações, avaliações e registros de mediação. |
+| 5 | Solicitação   | Pedido formal de um cliente a um prestador para execução de um serviço. Possui fluxo de aceitação, recusa, negociação, execução, conclusão e possíveis divergências. |
+| 6 | Avaliação   | Registro público de avaliação bilateral (cliente → prestador ou prestador → cliente), contendo nota e comentário exibidos no perfil do usuário avaliado. |
+| 7 | Feedback Privado  | Comentário privado bilateral enviado após um serviço. Não é exibido publicamente e contribui para o sistema de curadoria. |
+| 8 | Recomendação | Registro público de recomendação baseada em um serviço concluído, fortalecendo a reputação entre usuários.|
+| 9 | Indicação          | Registro de indicação direta entre usuários, independente de serviço prestado, reforçando relações de confiança dentro da plataforma. |
+|10 | Chat      | Canal de comunicação direta entre cliente e prestador vinculado à solicitação do serviço. Armazena mensagens trocadas durante a negociação e execução. |
+|11 | Mensagem     | Registro individual enviado dentro do chat, contendo conteúdo textual, autor, data e status de leitura. |
+|12 | Notificação     | Mensagem automática enviada pelo sistema para avisar usuários sobre eventos importantes (solicitações, respostas, atualizações etc.). |
+|13 | Curadoria     | Responsável por consolidar avaliações, feedbacks, indicações, histórico de mediação e verificação de identidade, gerando o Índice de Confiabilidade (ICU) do prestador. |
+
+
+
+
