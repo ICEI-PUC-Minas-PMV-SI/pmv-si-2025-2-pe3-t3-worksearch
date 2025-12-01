@@ -64,11 +64,13 @@ O UaiWork não realiza gestão de pagamentos ou integração com gateways de ter
 
 | Código | Requisito Não Funcional |
 |--------------------|------------------------------------|
-| RNF1 | A plataforma deverá ser acessível em diferentes dispositivos, como desktops, smartphones e tablets, garantindo uma boa experiência de uso em qualquer tipo de tela.  |
-| RNF2 | A plataforma deve ser capaz de processar requisições (como busca de prestadores de serviço ou envio de solicitações) em até 3 segundos, em média.
-| RNF3 | O sistema deverá ser escalável para suportar picos de acesso de usuários simultâneos sem degradação significativa de desempenho. 
-| RNF4 | A plataforma deve ser totalmente compatível com a Lei Geral de Proteção de Dados (LGPD), garantindo que todos os dados pessoais dos usuários sejam tratados de maneira transparente e segura. |
-
+| RNF1 | A plataforma deverá ser acessível em desktops, tablets e smartphones, com layout responsivo adaptado a resoluções a partir de 360×640 px, garantindo boa usabilidade em qualquer dispositivo  |
+| RNF2 | A plataforma deve responder às operações críticas (login, busca, envio de solicitação, carregamento de listas) em até 2 segundos para 95% das requisições, sob carga nominal.
+| RNF3 | O sistema deverá suportar ao menos 1.000 usuários simultâneos mantendo os tempos de resposta definidos, e apresentar disponibilidade mensal mínima de 99,5%, excluindo janelas programadas de manutenção. 
+| RNF4 | Toda a comunicação deve ocorrer via HTTPS, com senhas armazenadas usando algoritmos seguros (ex.: Argon2, bcrypt) e total conformidade com a LGPD, garantindo tratamento seguro, transparente e controlado dos dados pessoais. |
+| RNF5 | A plataforma deve manter rotinas automáticas de backup diário, com retenção mínima de 30 dias, assegurando integridade e recuperação dos dados em caso de falhas. |
+| RNF6 | A plataforma deve ser compatível com as versões estáveis dos navegadores Chrome, Firefox, Edge e Safari lançadas nos últimos 2 anos. |
+| RNF7 | A interface deve atender aos critérios WCAG 2.1 nível AA, garantindo acessibilidade a pessoas com diferentes níveis de proficiência tecnológica e necessidades especiais.
 
 ### 3.3.3 Usuários 
 
@@ -81,56 +83,7 @@ O UaiWork não realiza gestão de pagamentos ou integração com gateways de ter
 
 ### 3.4.1 Diagrama de Casos de Uso
 
-#### Figura 2: Diagrama de Casos de Uso do Sistema CSU01.
-
-<img width="1818" height="742" alt="01" src="https://github.com/user-attachments/assets/7202863c-c09f-4212-823e-0bd53b35bfc4" />
-
-
-#### Figura 3: Diagrama de Casos de Uso do Sistema CSU02 e CSU03.
-
-<img width="1417" height="491" alt="02-03" src="https://github.com/user-attachments/assets/49fc2b96-3352-436f-b2d8-64e91a78aa56" />
-
-
-#### Figura 4: Diagrama de Casos de Uso do Sistema CSU04.
-
-<img width="2273" height="424" alt="04" src="https://github.com/user-attachments/assets/7020c61a-5c3d-4495-9cbb-e1c61d8757ab" />
-
-#### Figura 5: Diagrama de Casos de Uso do Sistema CSU05.
-
-<img width="2902" height="424" alt="05" src="https://github.com/user-attachments/assets/a0b5cc4b-0fbd-4b9c-a919-c816b63cbcef" />
-
-#### Figura 6: Diagrama de Casos de Uso do Sistema CSU06.
-
-<img width="1753" height="424" alt="06" src="https://github.com/user-attachments/assets/20f90a26-1d16-4be9-ab6f-baab6f81d0cc" />
-
-#### Figura 7: Diagrama de Casos de Uso do Sistema CSU07.
-
-<img width="1918" height="424" alt="07" src="https://github.com/user-attachments/assets/9c129d6d-7a1a-4515-80cb-e862e636e83b" />
-
-#### Figura 8: Diagrama de Casos de Uso do Sistema CSU08.
-
-<img width="1918" height="424" alt="08" src="https://github.com/user-attachments/assets/c6dea607-930a-4271-89e5-2ed878057c6a" />
-
-#### Figura 9: Diagrama de Casos de Uso do Sistema CSU09.
-
-<img width="1218" height="424" alt="09" src="https://github.com/user-attachments/assets/9b8b61f9-499e-4a6f-820c-7835a8e7ea5c" />
-
-#### Figura 10: Diagrama de Casos de Uso do Sistema CSU010.
-
-<img width="1717" height="512" alt="10" src="https://github.com/user-attachments/assets/be3dcbc0-8ac3-4341-a828-1fd5b534979a" />
-
-#### Figura 11: Diagrama de Casos de Uso do Sistema CSU013.
-
-<img width="1127" height="424" alt="13" src="https://github.com/user-attachments/assets/2c2e4704-5c57-4196-bb2f-f1625a1b2687" />
-
-#### Figura 12: Diagrama de Casos de Uso do Sistema CSU014.
-
-<img width="1184" height="424" alt="14" src="https://github.com/user-attachments/assets/e1b9ee72-5dca-4d91-b900-d7e5a56a5026" />
-
-#### Figura 13: Diagrama de Casos de Uso do Sistema CSU015.
-
-<img width="1218" height="424" alt="15" src="https://github.com/user-attachments/assets/98a14851-a40b-4c3a-8188-c103c66144b6" />
-
+![Image](https://github.com/user-attachments/assets/558c0212-f75c-4ed7-b352-83113d180753)
 
 ### 3.4.2 Descrições de Casos de Uso
 
