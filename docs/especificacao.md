@@ -56,6 +56,9 @@ O UaiWork não realiza gestão de pagamentos ou integração com gateways de ter
 | RF12 | Notificações | O sistema deverá notificar os usuários sempre que uma nova solicitação for feita, ou quando um prestador aceitar ou recusar uma solicitação. |
 | RF13	| Gestão de serviço prestado  |	O sistema deverá permitir adicionar serviço prestado e atualizar seu progresso, tanto pelo prestador quanto pelo cliente |
 | RF14 | Gestão de Indicações | O sistema deve permitir que clientes e prestadores indiquem um ao outro, editem ou removam suas indicações |
+| RF15 | Sistema de Curadoria de Prestadores | O sistema deverá manter um mecanismo de curadoria que consolide avaliações públicas, feedbacks privados, indicações e status de verificação para gerar um índice de confiabilidade para cada prestador de serviço.|
+| RF16 | Cálculo de Índice de Confiabilidade (ICU) | O sistema deverá calcular periodicamente um Índice de Confiabilidade UaiWork (ICU) para cada prestador, considerando pesos configuráveis para avaliações, feedbacks, indicações, histórico de mediações e verificação de identidade.|
+| RF17 | Transparência do Ranqueamento | O sistema deverá exibir para o cliente, em buscas por prestadores, os principais fatores que influenciaram a posição de cada prestador no resultado (ex.: nota média, número de indicações, verificação, taxa de resposta), de forma clara e acessível.| 
 
 ### 3.3.2 Requisitos Não Funcionais
 
