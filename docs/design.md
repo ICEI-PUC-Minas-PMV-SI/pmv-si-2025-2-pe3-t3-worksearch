@@ -254,3 +254,20 @@ Feedback negativo de login
 <img width="1267" height="587" alt="Image" src="https://github.com/user-attachments/assets/f3c30017-ca6a-400e-9e9f-ceb3aed3c78d" />
 Tela de cadastro cliente/prestador: CSU01 – Cadastrar Usuário; RF1 – Cadastro de Usuário; RF4 – Sistema de Verificação (parcial). Cumpre as heurísticas de correspondência com o mundo real (rótulos como “Nome Completo” e “Tipo de Usuário” são familiares), prevenção de erros (exige preenchimento mínimo para envio) e consistência (mesmo padrão visual do login). Cumpre as regras de ouro de diálogos simples (formulário curto e direto) e consistência (estrutura igual às demais telas).
 
+<img width="1848" height="929" alt="Image" src="https://github.com/user-attachments/assets/19e98314-3ca8-412b-a08e-df9b04d1c7ae" />
+Tela inicial do prestador: CSU07 – Solicitar Serviço (versão prestador); CSU08 – Aceitar/Recusar Solicitação; CSU09 – Comunicação Direta; CSU13 – Notificações; CSU16 – Sistema de Curadoria/ICU. RF6 – Solicitação; RF7 – Aceitação/Recusa; RF8 – Comunicação Direta; RF12 – Notificações; RF16 – Cálculo do ICU. Cumpre as heurísticas de visibilidade do estado do sistema (números de solicitações, mensagens e avaliações), consistência (cartões uniformes) e estética minimalista (uso de espaços em branco, ausência de poluição visual). Cumpre as regras de ouro de design consistente (mesma identidade em todos os elementos) e prevenção de erros (ações seguras, sem risco de perda acidental).
+
+<img width="1848" height="929" alt="Image" src="https://github.com/user-attachments/assets/4d2b7dd1-1f32-47f5-9932-6c6c64c27865" />
+Cálculo ICU: CSU16 – Sistema de Curadoria/ICU; RF16 – Cálculo do ICU. Cumpre as heurísticas de simplicidade/minimalismo (tela extremamente enxuta), visibilidade (informa que o usuário ainda não possui ICU). Cumpre as regras de ouro de diálogo simples (apenas uma ação principal) e consistência (segue o layout das outras telas de conteúdo isolado).
+
+<img width="1848" height="929" alt="Image" src="https://github.com/user-attachments/assets/f6e4b4f7-cb41-496a-8629-045b3ca28ccc" />
+
+Feedback de cálculo do ICU para o prestador:  CSU16 – Sistema de Curadoria/ICU; RF15 – Sistema de Curadoria; RF17 – Transparência do Ranqueamento. Cumpre as heurísticas de consistência (todos os critérios seguem o mesmo padrão visual), reconhecimento ao invés de memorização (barras de progresso facilitam entendimento) e visibilidade (pontuação atual e máxima exibidas claramente). Cumpre as regras de ouro de redução da carga de memória (estrutura repetitiva e fácil de aprender) e consistência (cartões padronizados reforçam navegação intuitiva).
+
+<img width="1848" height="929" alt="Image" src="https://github.com/user-attachments/assets/7cc6c44c-2477-41f3-a21e-5368dd668829" />
+
+
+
+Detalhes do ICU para o prestador
+
+
