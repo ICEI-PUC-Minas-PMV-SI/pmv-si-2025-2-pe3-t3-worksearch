@@ -267,16 +267,25 @@ Feedback de cálculo do ICU para o prestador:  CSU16 – Sistema de Curadoria/IC
 <img width="1848" height="929" alt="Image" src="https://github.com/user-attachments/assets/7cc6c44c-2477-41f3-a21e-5368dd668829" />
 
 
+Visão do perfil do prestador pelo cliente quando há ICU gerado: 
 
-Detalhes do ICU para o prestador
+<img width="1850" height="934" alt="Image" src="https://github.com/user-attachments/assets/01d78061-a789-4290-9805-8ea40f0fd2f8" />
+Detalhes do ICU no perfil do prestador pela visão do cliente
 
+<img width="1850" height="934" alt="Image" src="https://github.com/user-attachments/assets/b42f3072-4305-43a0-b004-0b3d0b9ec932" />
+Detalhes do ICU no perfil do prestador pela visão do cliente
 
+<img width="1850" height="934" alt="Image" src="https://github.com/user-attachments/assets/54de3ca9-30c4-4a7f-b102-72bd860107be" />
+Explicação sobre ICU para o cliente
 
-Detalhes do ICU para o prestador e evolução ao longo do tempo: CSU16 – Sistema de Curadoria/ICU; RF15 – Sistema de Curadoria; RF17 – Transparência do Ranqueamento. Cumpre as heurísticas de visibilidade (gráfico temporal e indicador “+X pontos”), reconhecimento (ícones e cores nas recomendações) e flexibilidade (histórico fornece visão contextual). Cumpre as regras de ouro de feedback informativo (exibição da tendência de crescimento) e redução da carga de memória (gráfico substitui necessidade de lembrar evolução).
+<img width="1850" height="934" alt="Image" src="https://github.com/user-attachments/assets/478ae86d-303a-4409-be07-166d2ff3ffb9" />
+Mais detalhes sobre ICU para o cliente
 
+<img width="1850" height="934" alt="Image" src="https://github.com/user-attachments/assets/444b2c5f-a652-4987-b39c-02fb330c38ae" />
+Criação de indicação de profissional
 
-
-
+<img width="1850" height="934" alt="Image" src="https://github.com/user-attachments/assets/8c0a599e-0653-4ddb-a124-241147a569e2" />
+Feedback da criação de indicação
 
 <img width="1850" height="934" alt="Image" src="https://github.com/user-attachments/assets/8b4d2b92-23b4-4637-bcf9-2c96a3ee652f" />
 Visualização da indicação do cliente
