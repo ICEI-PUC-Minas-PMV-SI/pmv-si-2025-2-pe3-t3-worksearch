@@ -271,3 +271,31 @@ Feedback de cálculo do ICU para o prestador:  CSU16 – Sistema de Curadoria/IC
 Detalhes do ICU para o prestador
 
 
+
+Detalhes do ICU para o prestador e evolução ao longo do tempo: CSU16 – Sistema de Curadoria/ICU; RF15 – Sistema de Curadoria; RF17 – Transparência do Ranqueamento. Cumpre as heurísticas de visibilidade (gráfico temporal e indicador “+X pontos”), reconhecimento (ícones e cores nas recomendações) e flexibilidade (histórico fornece visão contextual). Cumpre as regras de ouro de feedback informativo (exibição da tendência de crescimento) e redução da carga de memória (gráfico substitui necessidade de lembrar evolução).
+
+
+
+
+
+<img width="1850" height="934" alt="Image" src="https://github.com/user-attachments/assets/8b4d2b92-23b4-4637-bcf9-2c96a3ee652f" />
+Visualização da indicação do cliente
+
+<img width="1828" height="892" alt="Image" src="https://github.com/user-attachments/assets/1b8cf7f1-b908-4852-8f12-92d89fda513e" />
+Criação de feedback privado
+
+<img width="1836" height="930" alt="Image" src="https://github.com/user-attachments/assets/252e44db-b05f-4e6c-94fd-31e1d00ad63f" />
+Confirmação de feedback privado
+
+<img width="1828" height="892" alt="Image" src="https://github.com/user-attachments/assets/7368b4f0-1c2b-455f-bc50-1f6f98d94063" />
+Visualização do feedback recebido
+
+<img width="1836" height="930" alt="Image" src="https://github.com/user-attachments/assets/68a3a06e-f770-4901-bdec-fec2a83c8b1b" />
+Conclusão do serviço
+
+<img width="1836" height="930" alt="Image" src="https://github.com/user-attachments/assets/85f0cee1-3cf0-4eb9-9248-dd8f8ea0164e" />
+Envio de avaliação final (pública)
+
+<img width="1836" height="930" alt="Image" src="https://github.com/user-attachments/assets/16f6a231-8597-48cf-9d2e-2a0bfda5d85f" />
+Exibição da avaliação final do serviço
+
