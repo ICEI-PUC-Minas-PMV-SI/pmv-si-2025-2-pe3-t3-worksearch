@@ -248,7 +248,7 @@
 
 Tela de login: CSU02 – Autenticar Usuário; RF2 – Autenticação de Usuário.. Cumpre as heurísticas de visibilidade do estado do sistema (cxibe claramente “Invalid login credentials” imediatamente após erro), de consistência e padrões (layout segue o mesmo padrão dos demais formulários) e orevenção de erros (inputs simples, sem campos desnecessários, reduzindo chance de erro). Cumpre as regras de ouro de consistência: (esmo estilo e comportamento do cadastro) e feedback informativo: A mensagem de erro aparece em vermelho no canto, clara e imediata).
 
-<img width="1350" height="600" alt="Image" src="https://github.com/user-attachments/assets/956660bf-542d-4bd5-b009-535cf608fed3" />
+<img width="1341" height="593" alt="Image" src="https://github.com/user-attachments/assets/99b6a279-4f02-4aff-a457-87043d43bd7b" />
 Feedback negativo de login
 
 <img width="1267" height="587" alt="Image" src="https://github.com/user-attachments/assets/f3c30017-ca6a-400e-9e9f-ceb3aed3c78d" />
