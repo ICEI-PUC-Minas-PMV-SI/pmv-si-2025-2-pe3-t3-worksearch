@@ -243,10 +243,14 @@
 
 
 ## 4.4 Testes com Protótipos
-Nesta seção você deve apresentar os testes realizados com usuários utilizando os protótipos de alta fidelidade desenvolvidos na seção anterior. O objetivo é avaliar a usabilidade, a clareza das informações e a adequação do design às necessidades das personas definidas no projeto.
 
-Cada integrante do grupo deverá aplicar o teste com um usuário distinto, preferencialmente alinhado ao perfil das personas criadas. Devem ser definidas previamente as tarefas que o usuário deverá executar no protótipo (por exemplo: realizar um cadastro, buscar um produto, concluir uma compra).
+<img width="1350" height="600" alt="Image" src="https://github.com/user-attachments/assets/ff8d2c70-6a78-4328-a35e-c1d670d0ea81" />
 
-Durante a aplicação do teste, registre observações sobre comportamentos, dúvidas, erros e comentários feitos pelo usuário, bem como o tempo necessário para a execução de cada tarefa. Ao final, colete o feedback do participante, destacando pontos positivos e aspectos a serem melhorados.
+Tela de login: CSU02 – Autenticar Usuário; RF2 – Autenticação de Usuário.. Cumpre as heurísticas de visibilidade do estado do sistema (cxibe claramente “Invalid login credentials” imediatamente após erro), de consistência e padrões (layout segue o mesmo padrão dos demais formulários) e orevenção de erros (inputs simples, sem campos desnecessários, reduzindo chance de erro). Cumpre as regras de ouro de consistência: (esmo estilo e comportamento do cadastro) e feedback informativo: A mensagem de erro aparece em vermelho no canto, clara e imediata).
 
-Os resultados obtidos por todos os integrantes devem ser consolidados, apresentando uma análise geral com os principais problemas encontrados, oportunidades de melhoria e as ações previstas para o projeto final. 
+<img width="1350" height="600" alt="Image" src="https://github.com/user-attachments/assets/956660bf-542d-4bd5-b009-535cf608fed3" />
+Feedback negativo de login
+
+<img width="1267" height="587" alt="Image" src="https://github.com/user-attachments/assets/f3c30017-ca6a-400e-9e9f-ceb3aed3c78d" />
+Tela de cadastro cliente/prestador: CSU01 – Cadastrar Usuário; RF1 – Cadastro de Usuário; RF4 – Sistema de Verificação (parcial). Cumpre as heurísticas de correspondência com o mundo real (rótulos como “Nome Completo” e “Tipo de Usuário” são familiares), prevenção de erros (exige preenchimento mínimo para envio) e consistência (mesmo padrão visual do login). Cumpre as regras de ouro de diálogos simples (formulário curto e direto) e consistência (estrutura igual às demais telas).
+
