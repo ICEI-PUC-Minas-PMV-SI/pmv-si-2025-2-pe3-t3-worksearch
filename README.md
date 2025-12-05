@@ -15,7 +15,6 @@ O projeto UaiWork é uma plataforma digital que busca conectar trabalhadores aut
 * Gustavo da Silva Novaes  
 * Mariana Silva de Mello Mattos  
 * Thais Angélica Costa Lara  
-* Theo Xavier Lopes 
 
 ## Orientador
 
