@@ -114,8 +114,10 @@ O teste de usabilidade avalia a facilidade com que os usuários conseguem intera
 
 <br><br>
 
-[Avaliação_Heurística.xlsx](https://github.com/user-attachments/files/16501461/Avaliacao_Heuristica.xlsx) 
+[Avaliacao_Heuristica.xlsx](https://github.com/user-attachments/files/23963607/Avaliacao_Heuristica.1.xlsx)
 
-[Relatório_de_Testes_com_Usuário.docx](https://github.com/user-attachments/files/16501456/Relatorio_de_Testes_com_Usuario.docx)
+[Teste_Carlos_Cliente.docx](https://github.com/user-attachments/files/23963622/Teste_Carlos_Cliente.docx)
 
-[Relatório_de_Testes_com_Usuário_exemplo.docx](https://github.com/user-attachments/files/16501459/Relatorio_de_Testes_com_Usuario_exemplo.docx)
+[Teste_Carlos_Prestador.docx](https://github.com/user-attachments/files/23963625/Teste_Carlos_Prestador.docx)
+
+[Relatório de Teste com Usuário - Leandro.docx](https://github.com/user-attachments/files/23963630/Relatorio.de.Teste.com.Usuario.-.Leandro.docx)
