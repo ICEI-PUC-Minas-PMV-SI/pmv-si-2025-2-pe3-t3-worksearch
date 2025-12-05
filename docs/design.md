@@ -312,8 +312,6 @@ Exibição da avaliação final do serviço
 
 5.1.1 Teste de funcionalidade com usuário Cliente
 
-## CT01 - Cadastrar usuário do tipo Cliente
-
 | Campo              | Valor                                                                                                                                                                                                                                                                       |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Caso de Teste      | CT01 - Cadastrar usuário do tipo Cliente                                                                                                                                                                                                                                   |
@@ -325,8 +323,6 @@ Exibição da avaliação final do serviço
 | Técnica            | Manual                                                                                                                                                                                                                                                                      |
 | Interação          | 1ª interação                                                                                                                                                                                                                                                                |
 
-## CT02 - Buscar profissionais
-
 | Campo              | Valor                                                                                                                                                                                                                                                                       |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Caso de Teste      | CT02 - Buscar profissionais                                                                                                                                                                                                                                                 |
@@ -337,8 +333,6 @@ Exibição da avaliação final do serviço
 | Prioridade         | Alta                                                                                                                                                                                                                                                                        |
 | Técnica            | Manual                                                                                                                                                                                                                                                                      |
 | Interação          | 2ª interação                                                                                                                                                                                                                                                                |
-
-## CT03 - Solicitar Serviços
 
 | Campo              | Valor                                                                                                                                                                                                                                                                       |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -353,7 +347,6 @@ Exibição da avaliação final do serviço
 
 5.1.2 Teste de funcionalidade com usuário Prestador de Serviços
 
-## CT04 - Cadastrar usuário do tipo Prestador
 
 | Campo              | Valor                                                                                                                                                                                                                                              |
 |--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -366,8 +359,6 @@ Exibição da avaliação final do serviço
 | Técnica            | Manual                                                                                                                                                                                                                                              |
 | Interação          | 1ª interação                                                                                                                                                                                                                                        |
 
-## CT05 - Preencher perfil de Prestador de Serviços
-
 | Campo              | Valor                                                                                                                                                                                                                                                                       |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Caso de Teste      | CT05 - Preencher perfil de Prestador de Serviços                                                                                                                                                                                                                            |
@@ -378,8 +369,6 @@ Exibição da avaliação final do serviço
 | Prioridade         | Alta                                                                                                                                                                                                                                                                        |
 | Técnica            | Manual                                                                                                                                                                                                                                                                      |
 | Interação          | 2ª interação                                                                                                                                                                                                                                                                |
-
-## CT06 - Visualizar solicitações de clientes
 
 | Campo              | Valor                                                                                                                                                                                                             |
 |--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -395,8 +384,6 @@ Exibição da avaliação final do serviço
 ## 5.2 Teste de usabilidade
 5.2.1 Teste de usabilidade com usuário Cliente
 
-## CT07 - Navegar na tela principal do perfil Cliente, buscar prestador e realizar solicitação
-
 | Campo              | Valor                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Caso de Teste      | CT07 - Navegar na tela principal do perfil Cliente. Acessar a tela de busca por profissionais, buscar um perfil de prestador e realizar uma solicitação.                                                                                                                                                                                                                                                                              |
@@ -404,8 +391,6 @@ Exibição da avaliação final do serviço
 | Procedimento       | 1) O ator acessa a tela de Login por meio dos botões “Entrar”, “Encontrar Profissionais”, “Sou Prestador” ou “Começar agora”; <br> 2) Informa ”Email” e clica “Entrar”; <br> 3) Sistema carrega tela inicial do Cliente; <br> 4) Clica em “Buscar Agora”; <br> 5) Pesquisa o prestador no campo de busca; <br> 6) Sistema retorna o prestador; <br> 7) Clica em “Solicitar Serviço”; <br> 8) Sistema carrega tela de detalhes; <br> 9) Preenche Categor
 
 5.2.1 Teste de usabilidade com usuário Prestador de Serviços
-
-## CT08 - Navegar no perfil Prestador, acessar Solicitações Recebidas e editar Meu Perfil
 
 | Campo              | Valor                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
