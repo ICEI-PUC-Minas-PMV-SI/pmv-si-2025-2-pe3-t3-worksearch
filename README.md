@@ -34,7 +34,7 @@ O projeto UaiWork é uma plataforma digital que busca conectar trabalhadores aut
 
 # Código
 
-<li><a href="src/codigo.md"> Código Fonte</a></li>
+https://preview--uai-connect-pros.lovable.app/
 
 # Apresentação
 
